@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Contributing | 中医经典</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://hexo.io/ko/docs/contributing.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="https://hexo.io/ko/docs/contributing.html">
+    
+      <link rel="alternative" hreflang="zh-tw" href="https://hexo.io/zh-tw/ko/docs/contributing.html">
+    
+      <link rel="alternative" hreflang="zh-cn" href="https://hexo.io/zh-cn/ko/docs/contributing.html">
+    
+      <link rel="alternative" hreflang="ru" href="https://hexo.io/ru/ko/docs/contributing.html">
+    
+      <link rel="alternative" hreflang="ko" href="https://hexo.io/ko/ko/docs/contributing.html">
+    
+      <link rel="alternative" hreflang="pt-br" href="https://hexo.io/pt-br/ko/docs/contributing.html">
+    
+      <link rel="alternative" hreflang="th" href="https://hexo.io/th/ko/docs/contributing.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-lato@0.0.75/index.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="中医经典">
+  <!-- Open Graph -->
+  <meta name="description" content="We welcome you to join the development of Hexo. 🤗 개발우리는 당신이 Hexo의 개발에 참여하는 것을 환영합니다. 이 문서는 당신의 개발 프로세스에 도움을 줄 겁니다. 시작하기 전에…아래의 코딩 스타일을 지켜주세요.  Google JavaScript Style Guide를 따릅니다. 두 개의 공백을 사용한 soft-t">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contributing">
+<meta property="og:url" content="https:&#x2F;&#x2F;hexo.io&#x2F;ko&#x2F;docs&#x2F;contributing.html">
+<meta property="og:site_name" content="中医经典">
+<meta property="og:description" content="We welcome you to join the development of Hexo. 🤗 개발우리는 당신이 Hexo의 개발에 참여하는 것을 환영합니다. 이 문서는 당신의 개발 프로세스에 도움을 줄 겁니다. 시작하기 전에…아래의 코딩 스타일을 지켜주세요.  Google JavaScript Style Guide를 따릅니다. 두 개의 공백을 사용한 soft-t">
+<meta property="og:locale" content="ko">
+<meta property="article:published_time" content="2019-10-28T01:17:33.105Z">
+<meta property="article:modified_time" content="2019-10-28T01:17:33.105Z">
+<meta property="article:author" content="Mr.Huang">
+<meta name="twitter:card" content="summary">
+  <!-- Google Analytics -->
+  
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6482217598104186",
+          enable_page_level_ads: true
+     });
+  </script>
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/ko/" id="logo">Mr.Huang</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/ko/docs/" class="main-nav-link">Docs</a><a href="/ko/api/" class="main-nav-link">API</a><a href="/news/" class="main-nav-link">News</a>
+      <a href="https://github.com/howtowin8" target="_blank" rel="noopener external nofollow noreferrer" class="main-nav-link"><i class="fa fa-github-alt"></i></a>
+      
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>한국어</span></label>
+      
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">Contributing</h1>
+                <a href="https://github.com/hexojs/site/edit/master/source/ko/docs/contributing.md" target="_blank" rel="noopener external nofollow noreferrer" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <p>We welcome you to join the development of Hexo. 🤗</p>
+<h2 id="개발" class="article-heading"><a href="#개발" class="headerlink" title="개발"></a>개발<a class="article-anchor" href="#개발" aria-hidden="true"></a></h2><p>우리는 당신이 Hexo의 개발에 참여하는 것을 환영합니다. 이 문서는 당신의 개발 프로세스에 도움을 줄 겁니다.</p>
+<h3 id="시작하기-전에…" class="article-heading"><a href="#시작하기-전에…" class="headerlink" title="시작하기 전에…"></a>시작하기 전에…<a class="article-anchor" href="#시작하기-전에…" aria-hidden="true"></a></h3><p>아래의 코딩 스타일을 지켜주세요.</p>
+<ul>
+<li><a href="https://google.github.io/styleguide/jsguide.html" target="_blank" rel="noopener external nofollow noreferrer">Google JavaScript Style Guide</a>를 따릅니다.</li>
+<li>두 개의 공백을 사용한 soft-tab을 사용합니다.</li>
+<li>콤마로 시작하지 마세요.</li>
+</ul>
+<h3 id="워크플로우" class="article-heading"><a href="#워크플로우" class="headerlink" title="워크플로우"></a>워크플로우<a class="article-anchor" href="#워크플로우" aria-hidden="true"></a></h3><ol>
+<li><p>Fork <a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener external nofollow noreferrer">hexojs/hexo</a>.</p>
+</li>
+<li><p>저장소를 당신의 컴퓨터에 clone하고 의존 사항들을 설치합니다.</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git clone https://github.com/&lt;username&gt;/hexo.git</span><br><span class="line">$ cd hexo</span><br><span class="line">$ npm install</span><br><span class="line">$ git submodule update --init</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>기능 branch를 생성합니다.</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git checkout -b new_feature</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>개발합니다.</p>
+</li>
+<li><p>Branch를 push합니다.</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git push origin new_feature</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>변경사항에 대한 설명을 포함하여 Pull request를 생성합니다.</p>
+</li>
+</ol>
+<h3 id="공지사항" class="article-heading"><a href="#공지사항" class="headerlink" title="공지사항"></a>공지사항<a class="article-anchor" href="#공지사항" aria-hidden="true"></a></h3><ul>
+<li><p><code>package.json</code>의 version number는 수정하지 마세요.</p>
+</li>
+<li><p>당신의 Pull request는 테스트를 통과했을 때에만 merge됩니다. 반영하기 전에 test를 돌려보세요.</p>
+  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm test</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h2 id="Updating-official-plugins" class="article-heading"><a href="#Updating-official-plugins" class="headerlink" title="Updating official-plugins"></a>Updating official-plugins<a class="article-anchor" href="#Updating-official-plugins" aria-hidden="true"></a></h2><p>Also, we welcome PR or issue to <a href="https://github.com/hexojs" target="_blank" rel="noopener external nofollow noreferrer">official-plugins</a>. 🤗</p>
+<h2 id="문서의-갱신" class="article-heading"><a href="#문서의-갱신" class="headerlink" title="문서의 갱신"></a>문서의 갱신<a class="article-anchor" href="#문서의-갱신" aria-hidden="true"></a></h2><p>Hexo 문서는 opensource이며 <a href="https://github.com/hexojs/site" target="_blank" rel="noopener external nofollow noreferrer">hexojs/site</a>에서 소스 코드를 검색할 수 있습니다.</p>
+<h3 id="Workflow" class="article-heading"><a href="#Workflow" class="headerlink" title="Workflow"></a>Workflow<a class="article-anchor" href="#Workflow" aria-hidden="true"></a></h3><ol>
+<li><p>Fork <a href="https://github.com/hexojs/site" target="_blank" rel="noopener external nofollow noreferrer">hexojs/site</a></p>
+</li>
+<li><p>저장소를 당신의 컴퓨터에 clone하고 의존 사항들을 설치합니다.</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git clone https://github.com/&lt;username&gt;/site.git</span><br><span class="line">$ cd site</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>문서를 수정하세요. Server를 돌려서 실시간으로 확인할 수 있습니다.</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Branch를 push합니다.</p>
+</li>
+<li><p>당신의 변경사항에 대한 설명을 포함하여 Pull request를 생성합니다.</p>
+</li>
+</ol>
+<h3 id="번역" class="article-heading"><a href="#번역" class="headerlink" title="번역"></a>번역<a class="article-anchor" href="#번역" aria-hidden="true"></a></h3><ol>
+<li><code>source</code> 폴더 안에 새 언어에 대한 폴더를 생성하세요. (소문자로 생성하세요.)</li>
+<li><code>source</code> 폴더의 Markdown 및 템플릿 파일들을 새 언어 폴더에 복사하세요.</li>
+<li><code>source/_data/language.yml</code>에 새 언어를 추가하세요.</li>
+<li><code>themes/navy/languages</code>에 <code>en.yml</code> 파일을 복사하고 새 언어로 이름을 변경하세요. (소문자로 변경하세요.)</li>
+</ol>
+<h2 id="이슈-보고" class="article-heading"><a href="#이슈-보고" class="headerlink" title="이슈 보고"></a>이슈 보고<a class="article-anchor" href="#이슈-보고" aria-hidden="true"></a></h2><p>Hexo를 사용하다가 문제를 발견하면, <a href="troubleshooting.html">Troubleshooting</a>, <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener external nofollow noreferrer">GitHub</a>, <a href="https://groups.google.com/group/hexo" target="_blank" rel="noopener external nofollow noreferrer">Google Group</a>에서 이슈에 대해 답을 찾아보세요. 만약 답이 없다면 Github에 문제를 보고해 주세요.</p>
+<ol>
+<li>문제 재현은 <a href="commands.html#Debug_mode">debug mode</a>에서 해주세요.</li>
+<li><code>hexo version</code>명령을 수행해서 버전 정보를 알려주세요.</li>
+<li>디버그 메시지와 버전 정보를 Github에 올려주세요.</li>
+</ol>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2019-10-28T01:17:33.105Z" itemprop="dateModified">Last updated: 2019-10-28</time>
+                <a href="troubleshooting.html" class="article-footer-prev" title="Troubleshooting"><i class="fa fa-chevron-left"></i><span>Prev</span></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              
+              <strong class="sidebar-title">Contents</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#개발"><span class="toc-text">개발</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#시작하기-전에…"><span class="toc-text">시작하기 전에…</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#워크플로우"><span class="toc-text">워크플로우</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#공지사항"><span class="toc-text">공지사항</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Updating-official-plugins"><span class="toc-text">Updating official-plugins</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#문서의-갱신"><span class="toc-text">문서의 갱신</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Workflow"><span class="toc-text">Workflow</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#번역"><span class="toc-text">번역</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#이슈-보고"><span class="toc-text">이슈 보고</span></a></li></ol>
+              <a href="#" id="article-toc-top">Back to Top</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">黄帝内经</strong><a href="index.html" class="sidebar-link">Overview</a><a href="素问卷二.html" class="sidebar-link">素问卷二</a><a href="素问卷三.html" class="sidebar-link">素问卷三</a><a href="素问卷四.html" class="sidebar-link">素问卷四</a><a href="素问卷五.html" class="sidebar-link">素问卷五</a><a href="素问卷六.html" class="sidebar-link">素问卷六</a><a href="素问卷七.html" class="sidebar-link">素问卷七</a><a href="素问卷八.html" class="sidebar-link">素问卷八</a><a href="素问卷九.html" class="sidebar-link">素问卷九</a><a href="素问卷十.html" class="sidebar-link">素问卷十</a><a href="素问卷十一.html" class="sidebar-link">素问卷十一</a><strong class="sidebar-title">伤寒论</strong><a href="writing.html" class="sidebar-link">Writing</a><a href="front-matter.html" class="sidebar-link">Front-matter</a><a href="tag-plugins.html" class="sidebar-link">Tag Plugins</a><a href="asset-folders.html" class="sidebar-link">Asset Folders</a><a href="data-files.html" class="sidebar-link">Data Files</a><a href="server.html" class="sidebar-link">Server</a><a href="generating.html" class="sidebar-link">Generating</a><strong class="sidebar-title">神农本草经</strong><a href="github-pages.html" class="sidebar-link">GitHub Pages</a><a href="gitlab-pages.html" class="sidebar-link">GitLab Pages</a><a href="one-command-deployment.html" class="sidebar-link">One-Command Deployment</a><strong class="sidebar-title">医学衷中参西录</strong><a href="permalinks.html" class="sidebar-link">Permalinks</a><a href="themes.html" class="sidebar-link">Themes</a><a href="templates.html" class="sidebar-link">Templates</a><a href="variables.html" class="sidebar-link">Variables</a><a href="helpers.html" class="sidebar-link">Helpers</a><a href="internationalization.html" class="sidebar-link">Internationalization (i18n)</a><a href="plugins.html" class="sidebar-link">Plugins</a><strong class="sidebar-title">李可老中医急危重症疑难病经验专辑</strong><a href="troubleshooting.html" class="sidebar-link">Troubleshooting</a><a href="contributing.html" class="sidebar-link current">Contributing</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2019 <a href="https://github.com/hexojs/hexo/graphs/contributors" rel="external nofollow noreferrer" target="_blank">Mr.Huang</a><br>
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>.
+    </div>
+    <div id="footer-links">
+      <a href="https://www.netlify.com/" rel="external nofollow noreferrer" class="footer-link" target="_blank"><img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" style="margin-bottom:-14px"/></a>
+      <a href="https://twitter.com/" rel="external nofollow noreferrer" class="footer-link" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/howtowin8" rel="external nofollow noreferrer" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/ko/docs/" class="mobile-nav-link">Docs</a><a href="/ko/api/" class="mobile-nav-link">API</a><a href="/news/" class="mobile-nav-link">News</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/howtowin8" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">黄帝内经</strong><a href="index.html" class="mobile-nav-link">Overview</a><a href="素问卷二.html" class="mobile-nav-link">素问卷二</a><a href="素问卷三.html" class="mobile-nav-link">素问卷三</a><a href="素问卷四.html" class="mobile-nav-link">素问卷四</a><a href="素问卷五.html" class="mobile-nav-link">素问卷五</a><a href="素问卷六.html" class="mobile-nav-link">素问卷六</a><a href="素问卷七.html" class="mobile-nav-link">素问卷七</a><a href="素问卷八.html" class="mobile-nav-link">素问卷八</a><a href="素问卷九.html" class="mobile-nav-link">素问卷九</a><a href="素问卷十.html" class="mobile-nav-link">素问卷十</a><a href="素问卷十一.html" class="mobile-nav-link">素问卷十一</a><strong class="mobile-nav-title">伤寒论</strong><a href="writing.html" class="mobile-nav-link">Writing</a><a href="front-matter.html" class="mobile-nav-link">Front-matter</a><a href="tag-plugins.html" class="mobile-nav-link">Tag Plugins</a><a href="asset-folders.html" class="mobile-nav-link">Asset Folders</a><a href="data-files.html" class="mobile-nav-link">Data Files</a><a href="server.html" class="mobile-nav-link">Server</a><a href="generating.html" class="mobile-nav-link">Generating</a><strong class="mobile-nav-title">神农本草经</strong><a href="github-pages.html" class="mobile-nav-link">GitHub Pages</a><a href="gitlab-pages.html" class="mobile-nav-link">GitLab Pages</a><a href="one-command-deployment.html" class="mobile-nav-link">One-Command Deployment</a><strong class="mobile-nav-title">医学衷中参西录</strong><a href="permalinks.html" class="mobile-nav-link">Permalinks</a><a href="themes.html" class="mobile-nav-link">Themes</a><a href="templates.html" class="mobile-nav-link">Templates</a><a href="variables.html" class="mobile-nav-link">Variables</a><a href="helpers.html" class="mobile-nav-link">Helpers</a><a href="internationalization.html" class="mobile-nav-link">Internationalization (i18n)</a><a href="plugins.html" class="mobile-nav-link">Plugins</a><strong class="mobile-nav-title">李可老中医急危重症疑难病经验专辑</strong><a href="troubleshooting.html" class="mobile-nav-link">Troubleshooting</a><a href="contributing.html" class="mobile-nav-link current">Contributing</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>한국어</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/contributing.html">
+      
+        <option value="en">English</option>
+      
+        <option value="zh-tw">正體中文</option>
+      
+        <option value="zh-cn">简体中文</option>
+      
+        <option value="ru">Русский</option>
+      
+        <option value="ko" selected>한국어</option>
+      
+        <option value="pt-br">Português (Brasil)</option>
+      
+        <option value="th">ภาษาไทย</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+
+</body>
+</html>

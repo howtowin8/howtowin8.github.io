@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>中医经典</title>
+  
+  <subtitle>读中医经典，享中医恩惠</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://hexo.io/"/>
+  <updated>2019-10-28T01:17:33.070Z</updated>
+  <id>https://hexo.io/</id>
+  
+  <author>
+    <name>Mr.Huang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Official plugins hexo-renderer-jade 0.5.0 &amp; hexo-renderer-pug 1.0.0 released</title>
+    <link href="https://hexo.io/news/2019/10/19/hexo-renderer-jade-0-5_hexo-renderer-pug-1/"/>
+    <id>https://hexo.io/news/2019/10/19/hexo-renderer-jade-0-5_hexo-renderer-pug-1/</id>
+    <published>2019-10-19T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.070Z</updated>
+    
+    <content type="html"><![CDATA[<p>Since the upstream <a href="https://www.npmjs.com/package/jade" target="_blank" rel="noopener external nofollow noreferrer">jade</a> package has been replaced by <a href="https://www.npmjs.com/package/pug" target="_blank" rel="noopener external nofollow noreferrer">pug</a> package and no longer maintained, we’ve decided to deprecate <a href="https://github.com/hexojs/hexo-renderer-jade" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-jade</a> and replace it with <a href="https://github.com/hexojs/hexo-renderer-pug" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-pug</a>.</p><p>To migrate, update your “package.json”,</p><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-  "hexo-renderer-jade": "^0.4.1",</span></span><br><span class="line"><span class="addition">+  "hexo-rederer-pug": "^1.0.0",</span></span><br></pre></td></tr></table></figure><p>and rename all <code>*.jade</code> files to <code>*.pug</code>.</p><h2 id="hexo-renderer-jade-0-5-0"><a href="#hexo-renderer-jade-0-5-0" class="headerlink" title="hexo-renderer-jade 0.5.0"></a>hexo-renderer-jade 0.5.0</h2><h3 id="Breaking-change"><a href="#Breaking-change" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>Final release, this plugin has been deprecated and replaced by <a href="https://github.com/hexojs/hexo-renderer-pug" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-pug</a> <a href="https://github.com/hexojs/hexo-renderer-jade/pull/35" target="_blank" rel="noopener external nofollow noreferrer">#35</a></li><li>chore: drop node 6 <a href="https://github.com/hexojs/hexo-renderer-jade/pull/29" target="_blank" rel="noopener external nofollow noreferrer">#29</a></li></ul><h3 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h3><ul><li>Update eslint requirement from ^5.9.0 to ^6.1.0 <a href="https://github.com/hexojs/hexo-renderer-jade/pull/28" target="_blank" rel="noopener external nofollow noreferrer">#28</a></li><li>Update mocha requirement from ^5.2.0 to ^6.0.1 <a href="https://github.com/hexojs/hexo-renderer-jade/pull/25" target="_blank" rel="noopener external nofollow noreferrer">#25</a></li><li>chore(package): delete jscs &amp; update eslint-config-hexo to 3.0.0 <a href="https://github.com/hexojs/hexo-renderer-jade/pull/22" target="_blank" rel="noopener external nofollow noreferrer">#22</a></li><li>Update chai requirement from ^3.5.0 to ^4.2.0 <a href="https://github.com/hexojs/hexo-renderer-jade/pull/16" target="_blank" rel="noopener external nofollow noreferrer">#16</a></li></ul><h2 id="hexo-renderer-pug-1-0-0"><a href="#hexo-renderer-pug-1-0-0" class="headerlink" title="hexo-renderer-pug 1.0.0"></a>hexo-renderer-pug 1.0.0</h2><p>The plugin was initially imported from <a href="https://github.com/hexojs/hexo-renderer-jade" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-jade</a> repository up until <a href="https://github.com/hexojs/hexo-renderer-jade/commit/828b04ae71b20b2b320cbbb2486e61508b4346e9" target="_blank" rel="noopener external nofollow noreferrer">this commit</a>.</p><p>Following are the changes from the commit onwards</p><h3 id="Breaking-changes"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes</h3><ul><li>drop Jade <a href="https://github.com/hexojs/hexo-renderer-pug/pull/2" target="_blank" rel="noopener external nofollow noreferrer">#2</a></li><li>rename to hexo-renderer-pug <a href="https://github.com/hexojs/hexo-renderer-pug/pull/1" target="_blank" rel="noopener external nofollow noreferrer">#1</a></li></ul><h3 id="Unit-testing"><a href="#Unit-testing" class="headerlink" title="Unit testing"></a>Unit testing</h3><ul><li>ci(travis): add windows <a href="https://github.com/hexojs/hexo-renderer-pug/pull/4" target="_blank" rel="noopener external nofollow noreferrer">#4</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Since the upstream &lt;a href=&quot;https://www.npmjs.com/package/jade&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt;jade&lt;/a&gt; pack
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 4.0.0 Released</title>
+    <link href="https://hexo.io/news/2019/10/14/hexo-4-released/"/>
+    <id>https://hexo.io/news/2019/10/14/hexo-4-released/</id>
+    <published>2019-10-14T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.069Z</updated>
+    
+    <content type="html"><![CDATA[<p>To upgrade to Hexo v4, change the following line in your package.json,</p><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-  "hexo": "^3.9.0",</span></span><br><span class="line"><span class="addition">+  "hexo": "^4.0.0",</span></span><br></pre></td></tr></table></figure><h2 id="Breaking-change"><a href="#Breaking-change" class="headerlink" title="Breaking change"></a>Breaking change</h2><ul><li>chore: drop Node 6 <a href="https://github.com/hexojs/hexo/pull/3598" target="_blank" rel="noopener external nofollow noreferrer">#3598</a></li><li>fix post_link, asset_link when title contains unescaped html charaters <a href="https://github.com/hexojs/hexo/pull/3704" target="_blank" rel="noopener external nofollow noreferrer">#3704</a><ul><li>Affects <code>asset_link</code>, <code>post_link</code> <a href="https://hexo.io/docs/tag-plugins">tag plugins</a></li><li>If you want to retain unescaped characters, set <code>false</code> to the final argument <code></code></li></ul></li><li>fix: encode permalink by default <a href="https://github.com/hexojs/hexo/pull/3708" target="_blank" rel="noopener external nofollow noreferrer">#3708</a><ul><li>If you currently use <code>encodeURI(post.permalink)</code> (including <code>permalink</code> of page, tag &amp; category variables), there are three options:<ol><li>Use <code>encodeURI(decodeURI(post.permalink))</code> for backward-compatibility with hexo v3.9 (and older)</li><li>Use <a href="https://github.com/hexojs/hexo-util#encodeurlstr" target="_blank" rel="noopener external nofollow noreferrer"><code>encodeURL()</code></a> function provided by hexo-util, it is backward-compatible</li><li>Drop <code>encodeURI()</code> function, this breaks backward-compatibility</li></ol></li><li>If you want to use the variables in decoded form,<ul><li>Use <code>decodeURI(post.permalink)</code></li><li><a href="https://github.com/hexojs/hexo-util#decodeurlstr" target="_blank" rel="noopener external nofollow noreferrer"><code>decodeURL()</code></a> of hexo-util can decode <a href="https://en.wikipedia.org/wiki/Punycode" target="_blank" rel="noopener external nofollow noreferrer">punycoded</a> domain.</li></ul></li><li>This change does not apply to <code>this.url</code> variable.</li></ul></li><li>fix(paginator): add <code>escape</code> option for compatibility with <a href="mailto:hexo-util@1.3.0" target="_blank" rel="noopener external nofollow noreferrer">hexo-util@1.3.0</a> <a href="https://github.com/hexojs/hexo/pull/3728" target="_blank" rel="noopener external nofollow noreferrer">#3728</a><ul><li>Theme devs, if you customize <code>prev_text</code>/<code>next_text</code> with html (e.g. to insert icons), you need to set <a href="https://github.com/theme-next/hexo-theme-next/blob/7d6272274afcc88edcefe3504e452a502c05329f/layout/_partials/pagination.swig#L8" target="_blank" rel="noopener external nofollow noreferrer"><code>escape: false</code></a> in the parameter.</li></ul></li></ul><h2 id="Feature"><a href="#Feature" class="headerlink" title="Feature"></a>Feature</h2><ul><li><p>feat(filter): use existing excerpt if possible <a href="https://github.com/hexojs/hexo/pull/3612" target="_blank" rel="noopener external nofollow noreferrer">#3612</a></p><ul><li>Support <code>excerpt:</code> in <a href="https://hexo.io/docs/front-matter">front-matter</a></li></ul></li><li><p>switch minimatch to micromatch <a href="https://github.com/hexojs/hexo/pull/3538" target="_blank" rel="noopener external nofollow noreferrer">#3538</a></p><ul><li>Refer to <a href="https://github.com/micromatch/micromatch#extended-globbing" target="_blank" rel="noopener external nofollow noreferrer">micromatch docs</a> for advanced globbing</li></ul></li><li><p>feat: add option to disable meta generator tag <a href="https://github.com/hexojs/hexo/pull/3653" target="_blank" rel="noopener external nofollow noreferrer">#3653</a></p><ul><li>Add <code>meta_generator: false</code> to config to disable</li></ul></li><li><p>feat(generator): allow limit parallel generation <a href="https://github.com/hexojs/hexo/pull/3665" target="_blank" rel="noopener external nofollow noreferrer">#3665</a></p><ul><li>If you experience “Out of memory” issue, try lowering the value in <code>hexo g --concurrency &lt;number&gt;</code></li></ul></li><li><p>Option to use date instead of file mtime for updated date <a href="https://github.com/hexojs/hexo/pull/3235" target="_blank" rel="noopener external nofollow noreferrer">#3235</a></p><ul><li>If you prefer not to use file modification time in the <code>post.updated</code> variable, set <code>use_date_for_updated: true</code> in config</li></ul></li><li><p>feat(list_tags): add Schema “keywords” and Microdata “tag” <a href="https://github.com/hexojs/hexo/pull/3678" target="_blank" rel="noopener external nofollow noreferrer">#3678</a></p></li><li><p>feat(permalink_variable): add pretty_urls option to remove index.html from url <a href="https://github.com/hexojs/hexo/pull/3691" target="_blank" rel="noopener external nofollow noreferrer">#3691</a></p><ul><li>Use the following config to remove the trailing <code>index.html</code> from <code>permalink</code> <a href="https://hexo.io/docs/variables">variables</a></li></ul><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line"><span class="attr">  trailing_index:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><ul><li>Does not apply to <code>this.url</code> variable (see <a href="https://github.com/hexojs/hexo/pull/3661" target="_blank" rel="noopener external nofollow noreferrer">#3661</a>).</li><li>Should be compatible with existing canonical-related plugins, recommend plugin and theme devs to test</li></ul></li><li><p>feat: add <code>full_url_for</code> helper <a href="https://github.com/hexojs/hexo/pull/3701" target="_blank" rel="noopener external nofollow noreferrer">#3701</a></p><ul><li>use this helper <code>full_url_for(page.path)</code> instead of <code>config.url + page.path</code></li></ul></li><li><p>fix: external_link should use after_render <a href="https://github.com/hexojs/hexo/pull/3675" target="_blank" rel="noopener external nofollow noreferrer">#3675</a></p><ul><li>added <code>field</code> and <code>exclude</code> options, see <a href="https://github.com/hexojs/hexo/pull/3675" target="_blank" rel="noopener external nofollow noreferrer">#3675</a> for guide.</li></ul></li></ul><h2 id="Performance"><a href="#Performance" class="headerlink" title="Performance"></a>Performance</h2><ul><li>perf(meta_generator): drop cheerio <a href="https://github.com/hexojs/hexo/pull/3671" target="_blank" rel="noopener external nofollow noreferrer">#3671</a></li><li>perf(open_graph): drop cheerio and use regex <a href="https://github.com/hexojs/hexo/pull/3680" target="_blank" rel="noopener external nofollow noreferrer">#3680</a></li><li>perf(external_link): drop cheerio and use regex <a href="https://github.com/hexojs/hexo/pull/3685" target="_blank" rel="noopener external nofollow noreferrer">#3685</a></li><li>perf(cache): enforce caching across modes <a href="https://github.com/hexojs/hexo/pull/3756" target="_blank" rel="noopener external nofollow noreferrer">#3756</a></li></ul><h2 id="Fix"><a href="#Fix" class="headerlink" title="Fix"></a>Fix</h2><ul><li>fix: set english as default <a href="https://github.com/hexojs/hexo/pull/3654" target="_blank" rel="noopener external nofollow noreferrer">#3654</a></li><li>Use filename when title is not specified in the front-matter <a href="https://github.com/hexojs/hexo/pull/3672" target="_blank" rel="noopener external nofollow noreferrer">#3672</a></li><li>fix: ignore categories / tags with zero posts <a href="https://github.com/hexojs/hexo/pull/3624" target="_blank" rel="noopener external nofollow noreferrer">#3624</a></li><li>fix(open_graph): remove index.html from url <a href="https://github.com/hexojs/hexo/pull/3661" target="_blank" rel="noopener external nofollow noreferrer">#3661</a></li><li>fix(open_graph): remove duplicate twitter card tags <a href="https://github.com/hexojs/hexo/pull/3668" target="_blank" rel="noopener external nofollow noreferrer">#3668</a></li><li>fix(helpers, tag plugins): encode url by default <a href="https://github.com/hexojs/hexo/pull/3710" target="_blank" rel="noopener external nofollow noreferrer">#3710</a><ul><li>Refer to <a href="https://github.com/hexojs/hexo/pull/3708" target="_blank" rel="noopener external nofollow noreferrer">#3708</a> for guide on decoding.</li></ul></li><li>fix(open_graph): percent-encode url, not html escape <a href="https://github.com/hexojs/hexo/pull/3686" target="_blank" rel="noopener external nofollow noreferrer">#3686</a></li><li>fix: Allow backtick code block in “blockquote” tag plugin <a href="https://github.com/hexojs/hexo/pull/2321" target="_blank" rel="noopener external nofollow noreferrer">#2321</a></li><li>fix: Correct processing of backtick code block on blockquote <a href="https://github.com/hexojs/hexo/pull/3765" target="_blank" rel="noopener external nofollow noreferrer">#3765</a></li><li>fix: prevent inserting extra new line character into the end of backtick code block <a href="https://github.com/hexojs/hexo/pull/3768" target="_blank" rel="noopener external nofollow noreferrer">#3768</a></li></ul><h2 id="Dependency"><a href="#Dependency" class="headerlink" title="Dependency"></a>Dependency</h2><ul><li>chore(deps): update tildify requirement from ^1.2.0 to ^2.0.0 <a href="https://github.com/hexojs/hexo/pull/3541" target="_blank" rel="noopener external nofollow noreferrer">#3541</a></li><li>chore(deps): update strip-indent requirement from ^2.0.0 to ^3.0.0 <a href="https://github.com/hexojs/hexo/pull/3534" target="_blank" rel="noopener external nofollow noreferrer">#3534</a></li><li>chore(deps-dev): update husky requirement from ^1.1.3 to ^3.0.0 <a href="https://github.com/hexojs/hexo/pull/3608" target="_blank" rel="noopener external nofollow noreferrer">#3608</a></li><li>chore(deps-dev): update eslint requirement from ^5.9.0 to ^6.0.1 <a href="https://github.com/hexojs/hexo/pull/3606" target="_blank" rel="noopener external nofollow noreferrer">#3606</a></li><li>chore(deps-dev): update lint-staged requirement from ^8.1.0 to ^9.1.0 <a href="https://github.com/hexojs/hexo/pull/3615" target="_blank" rel="noopener external nofollow noreferrer">#3615</a></li><li>chore: update to <a href="mailto:hexo-util@1.0.1" target="_blank" rel="noopener external nofollow noreferrer">hexo-util@1.0.1</a> and <a href="mailto:hexo-renderer-marked@2.0.0" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-marked@2.0.0</a> <a href="https://github.com/hexojs/hexo/pull/3646" target="_blank" rel="noopener external nofollow noreferrer">#3646</a></li><li>chore(deps): update hexo-i18n requirement from ^0.2.1 to ^1.0.0 <a href="https://github.com/hexojs/hexo/pull/3698" target="_blank" rel="noopener external nofollow noreferrer">#3698</a></li><li>chore(deps): update hexo-fs requirement from ^1.0.0 to ^2.0.0 <a href="https://github.com/hexojs/hexo/pull/3699" target="_blank" rel="noopener external nofollow noreferrer">#3699</a></li><li>chore(deps): update hexo-front-matter requirement from ^0.2.3 to ^1.0.0 <a href="https://github.com/hexojs/hexo/pull/3700" target="_blank" rel="noopener external nofollow noreferrer">#3700</a></li><li>chore(deps): update hexo-log requirement from ^0.2.0 to ^1.0.0 <a href="https://github.com/hexojs/hexo/pull/3730" target="_blank" rel="noopener external nofollow noreferrer">#3730</a></li><li>chore(deps): update warehouse requirement from ^2.2.0 to ^3.0.0 <a href="https://github.com/hexojs/hexo/pull/3736" target="_blank" rel="noopener external nofollow noreferrer">#3736</a></li><li>chore(deps): bump hexo-cli from 2.0.0 to 3.0.0 <a href="https://github.com/hexojs/hexo/pull/3743" target="_blank" rel="noopener external nofollow noreferrer">#3743</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;To upgrade to Hexo v4, change the following line in your package.json,&lt;/p&gt;
+&lt;figure class=&quot;highlight diff&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pr
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugins hexo-cli 3.0.0 &amp; hexo-util 1.4.0 released</title>
+    <link href="https://hexo.io/news/2019/10/09/hexo-cli-3_hexo-util-1-4/"/>
+    <id>https://hexo.io/news/2019/10/09/hexo-cli-3_hexo-util-1-4/</id>
+    <published>2019-10-09T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.068Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/hexo-cli" target="_blank" rel="noopener external nofollow noreferrer">hexo-cli</a> &amp; <a href="https://github.com/hexojs/hexo-util" target="_blank" rel="noopener external nofollow noreferrer">hexo-util</a>.</p><h2 id="hexo-cli-3-0-0"><a href="#hexo-cli-3-0-0" class="headerlink" title="hexo-cli 3.0.0"></a>hexo-cli 3.0.0</h2><h3 id="Breaking-change"><a href="#Breaking-change" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>chore: drop node 6 <a href="https://github.com/hexojs/hexo-cli/pull/78" target="_blank" rel="noopener external nofollow noreferrer">#78</a></li></ul><h3 id="Fix"><a href="#Fix" class="headerlink" title="Fix"></a>Fix</h3><ul><li>fix(console): output formatting <a href="https://github.com/hexojs/hexo-cli/pull/111" target="_blank" rel="noopener external nofollow noreferrer">#111</a></li></ul><h3 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>Refacter test <a href="https://github.com/hexojs/hexo-cli/pull/92" target="_blank" rel="noopener external nofollow noreferrer">#92</a></li></ul><h3 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h3><ul><li>chore: update hexo-starter submodule <a href="https://github.com/hexojs/hexo-cli/pull/77" target="_blank" rel="noopener external nofollow noreferrer">#77</a></li><li>Bump hexo-util from 0.6.3 to 1.0.0 <a href="https://github.com/hexojs/hexo-cli/pull/96" target="_blank" rel="noopener external nofollow noreferrer">#96</a></li><li>Bump hexo-renderer-marked from 1.0.1 to 2.0.0 <a href="https://github.com/hexojs/hexo-cli/pull/99" target="_blank" rel="noopener external nofollow noreferrer">#99</a></li><li>Bump hexo-fs from 1.0.2 to 2.0.0 <a href="https://github.com/hexojs/hexo-cli/pull/106" target="_blank" rel="noopener external nofollow noreferrer">#106</a></li><li>Bump hexo-log from 0.2.0 to 1.0.0  <a href="https://github.com/hexojs/hexo-cli/pull/113" target="_blank" rel="noopener external nofollow noreferrer">#113</a></li><li>Bump tildify from 1.2.0 to 2.0.0 <a href="https://github.com/hexojs/hexo-cli/pull/64" target="_blank" rel="noopener external nofollow noreferrer">#64</a></li><li>Bump eslint from 5.16.0 to 6.0.1 <a href="https://github.com/hexojs/hexo-cli/pull/75" target="_blank" rel="noopener external nofollow noreferrer">#75</a></li><li>Bump acorn from 6.2.1 to 7.0.0 <a href="https://github.com/hexojs/hexo-cli/pull/97" target="_blank" rel="noopener external nofollow noreferrer">#97</a></li></ul><h2 id="hexo-util-1-4-0"><a href="#hexo-util-1-4-0" class="headerlink" title="hexo-util 1.4.0"></a>hexo-util 1.4.0</h2><h3 id="Feature"><a href="#Feature" class="headerlink" title="Feature"></a>Feature</h3><ul><li>feat: add unescapeHTML() <a href="https://github.com/hexojs/hexo-util/pull/104" target="_blank" rel="noopener external nofollow noreferrer">#104</a></li><li>feat(htmlTag): support async/defer/boolean attribute <a href="https://github.com/hexojs/hexo-util/pull/106" target="_blank" rel="noopener external nofollow noreferrer">#106</a></li></ul><h3 id="Fix-1"><a href="#Fix-1" class="headerlink" title="Fix"></a>Fix</h3><ul><li>fix(escapeHTML): avoid double escape <a href="https://github.com/hexojs/hexo-util/pull/104" target="_blank" rel="noopener external nofollow noreferrer">#104</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/hexo-cli&quot; target=&quot;_blank&quot; rel=&quot;noopener external nof
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugins warehouse 3.0.0 &amp; hexo-util 1.2.0, 1.3.0, 1.3.1 released</title>
+    <link href="https://hexo.io/news/2019/09/27/warehouse-3_hexo-util-1-3-1/"/>
+    <id>https://hexo.io/news/2019/09/27/warehouse-3_hexo-util-1-3-1/</id>
+    <published>2019-09-27T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.068Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/warehouse" target="_blank" rel="noopener external nofollow noreferrer">warehouse</a> &amp; <a href="https://github.com/hexojs/hexo-util" target="_blank" rel="noopener external nofollow noreferrer">hexo-util</a>.</p><h2 id="warehouse-3-0-0"><a href="#warehouse-3-0-0" class="headerlink" title="warehouse 3.0.0"></a>warehouse 3.0.0</h2><h3 id="Breaking-change"><a href="#Breaking-change" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>Replace constructor function to class declaration <a href="https://github.com/hexojs/warehouse/pull/30" target="_blank" rel="noopener external nofollow noreferrer">#30</a>, refer to <a href="https://github.com/hexojs/warehouse#30-breaking-change" target="_blank" rel="noopener external nofollow noreferrer">the docs</a> for more info on updating to the new syntax.</li><li>chore: drop node 6 <a href="https://github.com/hexojs/warehouse/pull/49" target="_blank" rel="noopener external nofollow noreferrer">#49</a></li></ul><h3 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>Remove old compatibility code <a href="https://github.com/hexojs/warehouse/pull/57" target="_blank" rel="noopener external nofollow noreferrer">#57</a></li><li>Convert method definitions <a href="https://github.com/hexojs/warehouse/pull/52" target="_blank" rel="noopener external nofollow noreferrer">#52</a></li><li>Split Schema class <a href="https://github.com/hexojs/warehouse/pull/58" target="_blank" rel="noopener external nofollow noreferrer">#58</a></li><li>refactor: use instanceof Date instead of util.isDate <a href="https://github.com/hexojs/warehouse/pull/37" target="_blank" rel="noopener external nofollow noreferrer">#37</a></li></ul><h2 id="hexo-util-1-3-1"><a href="#hexo-util-1-3-1" class="headerlink" title="hexo-util 1.3.1"></a>hexo-util 1.3.1</h2><h3 id="Fix"><a href="#Fix" class="headerlink" title="Fix"></a>Fix</h3><ul><li>fix(encode_url): skip encode non-urls <a href="https://github.com/hexojs/hexo-util/pull/102" target="_blank" rel="noopener external nofollow noreferrer">#102</a></li></ul><h2 id="hexo-util-1-3-0"><a href="#hexo-util-1-3-0" class="headerlink" title="hexo-util 1.3.0"></a>hexo-util 1.3.0</h2><h3 id="Breaking-change-1"><a href="#Breaking-change-1" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>fix(html_tag): escape html and encode url by default <a href="https://github.com/hexojs/hexo-util/pull/93" target="_blank" rel="noopener external nofollow noreferrer">#93</a><ul><li>insert <code>false</code> to the 4th argument to disable escape</li><li>e.g. <code>htmlTag(&#39;a&#39;, {href: &#39;http://foo.com/&#39;}, &#39;&lt;b&gt;bold&lt;/b&gt;&#39;, false)</code></li></ul></li></ul><h3 id="Feature"><a href="#Feature" class="headerlink" title="Feature"></a>Feature</h3><ul><li>feat: decodeURL() <a href="https://github.com/hexojs/hexo-util/pull/97" target="_blank" rel="noopener external nofollow noreferrer">#97</a></li></ul><h3 id="Fix-1"><a href="#Fix-1" class="headerlink" title="Fix"></a>Fix</h3><ul><li>fix(encodeURL): encode path once only <a href="https://github.com/hexojs/hexo-util/pull/92" target="_blank" rel="noopener external nofollow noreferrer">#92</a></li><li>fix(html_tag): encode url value of url-related attributes and skip escape/encode <code>&lt;style&gt;</code> <a href="https://github.com/hexojs/hexo-util/pull/96" target="_blank" rel="noopener external nofollow noreferrer">#96</a></li><li>fix(html_tag): encode url() in style tag <a href="https://github.com/hexojs/hexo-util/pull/101" target="_blank" rel="noopener external nofollow noreferrer">#101</a></li></ul><h2 id="hexo-util-1-2-0"><a href="#hexo-util-1-2-0" class="headerlink" title="hexo-util 1.2.0"></a>hexo-util 1.2.0</h2><h3 id="Feature-1"><a href="#Feature-1" class="headerlink" title="Feature"></a>Feature</h3><ul><li>add gravatar() <a href="https://github.com/hexojs/hexo-util/pull/81" target="_blank" rel="noopener external nofollow noreferrer">#81</a></li><li>add url_for() &amp; relative_url() <a href="https://github.com/hexojs/hexo-util/pull/82" target="_blank" rel="noopener external nofollow noreferrer">#82</a></li><li>add full_url_for() <a href="https://github.com/hexojs/hexo-util/pull/84" target="_blank" rel="noopener external nofollow noreferrer">#84</a></li></ul><h3 id="Fix-2"><a href="#Fix-2" class="headerlink" title="Fix"></a>Fix</h3><ul><li>fix(encodeURL): support hash/anchor, auth and port number <a href="https://github.com/hexojs/hexo-util/pull/85" target="_blank" rel="noopener external nofollow noreferrer">#85</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/warehouse&quot; target=&quot;_blank&quot; rel=&quot;noopener external no
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-filter-nofollow joined hexo official plugins</title>
+    <link href="https://hexo.io/news/2019/09/17/hexo-filter-nofollow-joined-hexo-official-plugin/"/>
+    <id>https://hexo.io/news/2019/09/17/hexo-filter-nofollow-joined-hexo-official-plugin/</id>
+    <published>2019-09-17T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.068Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new hexo official plugin: <a href="https://github.com/hexojs/hexo-filter-nofollow/" target="_blank" rel="noopener external nofollow noreferrer">hexo-filter-nofollow</a></p><p><a href="https://github.com/hexojs/hexo-filter-nofollow/" target="_blank" rel="noopener external nofollow noreferrer">hexo-filter-nofollow</a> will add <code>rel=&quot;external nofollow noreferrer&quot;</code> to all external links automatically for security, privacy and SEO. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types" target="_blank" rel="noopener external nofollow noreferrer">Read more</a>.</p><p>You can install this plugin using the command below:</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm i hexo-filter-nofollow --save</span><br></pre></td></tr></table></figure><p>More configurations please checkout the <a href="https://github.com/hexojs/hexo-filter-nofollow/blob/master/README.md" target="_blank" rel="noopener external nofollow noreferrer">README of hexo-filter-nofollow</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new hexo official plugin: &lt;a href=&quot;https://github.com/hexojs/hexo-filter-nofollow/&quot; target=&quot;_blank&quot; rel=&quot;noopener external 
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugin hexo-i18n 1.0.0, hexo-clean-css 1.0.0 &amp; hexo-util 1.1.0 released</title>
+    <link href="https://hexo.io/news/2019/09/08/hexo-i18n-1_hexo-clean-css-1_hexo-util-1-1/"/>
+    <id>https://hexo.io/news/2019/09/08/hexo-i18n-1_hexo-clean-css-1_hexo-util-1-1/</id>
+    <published>2019-09-08T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.067Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/hexo-i18n" target="_blank" rel="noopener external nofollow noreferrer">hexo-i18n</a>, <a href="https://github.com/hexojs/hexo-clean-css" target="_blank" rel="noopener external nofollow noreferrer">hexo-clean-css</a> &amp; <a href="https://github.com/hexojs/hexo-util" target="_blank" rel="noopener external nofollow noreferrer">hexo-util</a>.</p><h2 id="hexo-i18n-1-0-0"><a href="#hexo-i18n-1-0-0" class="headerlink" title="hexo-i18n 1.0.0"></a>hexo-i18n 1.0.0</h2><h3 id="Breaking-change"><a href="#Breaking-change" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>chore: require at least node 8 <a href="https://github.com/hexojs/hexo-i18n/pull/15" target="_blank" rel="noopener external nofollow noreferrer">#15</a></li></ul><h3 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>es6-fy <a href="https://github.com/hexojs/hexo-i18n/pull/5" target="_blank" rel="noopener external nofollow noreferrer">#5</a>, <a href="https://github.com/hexojs/hexo-i18n/pull/6" target="_blank" rel="noopener external nofollow noreferrer">#6</a>, <a href="https://github.com/hexojs/hexo-i18n/pull/17" target="_blank" rel="noopener external nofollow noreferrer">#17</a></li></ul><h3 id="Housekeeping"><a href="#Housekeeping" class="headerlink" title="Housekeeping"></a>Housekeeping</h3><ul><li>chore(package): use eslint intead of jscs <a href="https://github.com/hexojs/hexo-i18n/pull/4" target="_blank" rel="noopener external nofollow noreferrer">#4</a></li></ul><h2 id="hexo-clean-css-1-0-0"><a href="#hexo-clean-css-1-0-0" class="headerlink" title="hexo-clean-css 1.0.0"></a>hexo-clean-css 1.0.0</h2><h3 id="Breaking-change-1"><a href="#Breaking-change-1" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>chore: require at least node 8 <a href="https://github.com/hexojs/hexo-clean-css/pull/13" target="_blank" rel="noopener external nofollow noreferrer">#13</a></li></ul><h3 id="Feature"><a href="#Feature" class="headerlink" title="Feature"></a>Feature</h3><ul><li>replace minimatch with micromatch <a href="https://github.com/hexojs/hexo-clean-css/pull/16" target="_blank" rel="noopener external nofollow noreferrer">#16</a></li></ul><h3 id="Refactor-1"><a href="#Refactor-1" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>test: drop gulp and jshint <a href="https://github.com/hexojs/hexo-clean-css/pull/14" target="_blank" rel="noopener external nofollow noreferrer">#14</a></li></ul><h2 id="hexo-util-1-1-0"><a href="#hexo-util-1-1-0" class="headerlink" title="hexo-util 1.1.0"></a>hexo-util 1.1.0</h2><h3 id="Feature-1"><a href="#Feature-1" class="headerlink" title="Feature"></a>Feature</h3><ul><li>feat: add encodeURL() <a href="https://github.com/hexojs/hexo-util/pull/77" target="_blank" rel="noopener external nofollow noreferrer">#77</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/hexo-i18n&quot; target=&quot;_blank&quot; rel=&quot;noopener external no
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugin hexo-server 1.0.0, hexo-front-matter 1.0.0 &amp; hexo-fs 2.0.0 released</title>
+    <link href="https://hexo.io/news/2019/09/07/hexo-server-1_hexo-front-matter-1_hexo-fs_2/"/>
+    <id>https://hexo.io/news/2019/09/07/hexo-server-1_hexo-front-matter-1_hexo-fs_2/</id>
+    <published>2019-09-07T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.067Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/hexo-server" target="_blank" rel="noopener external nofollow noreferrer">hexo-server</a>, <a href="https://github.com/hexojs/hexo-front-matter" target="_blank" rel="noopener external nofollow noreferrer">hexo-front-matter</a> &amp; <a href="https://github.com/hexojs/hexo-fs" target="_blank" rel="noopener external nofollow noreferrer">hexo-fs</a>.</p><h2 id="hexo-server-1-0-0"><a href="#hexo-server-1-0-0" class="headerlink" title="hexo-server 1.0.0"></a>hexo-server 1.0.0</h2><h3 id="Breaking-change"><a href="#Breaking-change" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>Drop node 6 <a href="https://github.com/hexojs/hexo-server/pull/87" target="_blank" rel="noopener external nofollow noreferrer">#87</a></li></ul><h3 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>Refactor: es2016nify <a href="https://github.com/hexojs/hexo-server/pull/68" target="_blank" rel="noopener external nofollow noreferrer">#68</a></li><li>refactor: Test refactor es2016 <a href="https://github.com/hexojs/hexo-server/pull/67" target="_blank" rel="noopener external nofollow noreferrer">#67</a></li></ul><h3 id="Housekeeping"><a href="#Housekeeping" class="headerlink" title="Housekeeping"></a>Housekeeping</h3><ul><li>Move jscs to eslint <a href="https://github.com/hexojs/hexo-server/pull/65" target="_blank" rel="noopener external nofollow noreferrer">#65</a></li></ul><h2 id="hexo-front-matter-1-0-0"><a href="#hexo-front-matter-1-0-0" class="headerlink" title="hexo-front-matter 1.0.0"></a>hexo-front-matter 1.0.0</h2><h3 id="Breaking-change-1"><a href="#Breaking-change-1" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>chore: drop node 6 <a href="https://github.com/hexojs/hexo-front-matter/pull/18" target="_blank" rel="noopener external nofollow noreferrer">#18</a></li></ul><h3 id="Refactor-1"><a href="#Refactor-1" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>Migrate to ES6 <a href="https://github.com/hexojs/hexo-front-matter/pull/9" target="_blank" rel="noopener external nofollow noreferrer">#9</a></li></ul><h3 id="Housekeeping-1"><a href="#Housekeeping-1" class="headerlink" title="Housekeeping"></a>Housekeeping</h3><ul><li>Use eslint instead of jscs <a href="https://github.com/hexojs/hexo-front-matter/pull/10" target="_blank" rel="noopener external nofollow noreferrer">#10</a></li></ul><h2 id="hexo-fs-2-0-0"><a href="#hexo-fs-2-0-0" class="headerlink" title="hexo-fs 2.0.0"></a>hexo-fs 2.0.0</h2><h3 id="Breaking-change-2"><a href="#Breaking-change-2" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>Drop node 6 <a href="https://github.com/hexojs/hexo-fs/pull/34" target="_blank" rel="noopener external nofollow noreferrer">#34</a></li></ul><h3 id="Refactor-2"><a href="#Refactor-2" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li><code>Object.hasOwnProperty</code> syntax for compatibility with eslint v6 <a href="https://github.com/hexojs/hexo-fs/pull/37" target="_blank" rel="noopener external nofollow noreferrer">#37</a></li><li>Refactor(test): useful chai-as-promised <a href="https://github.com/hexojs/hexo-fs/pull/43" target="_blank" rel="noopener external nofollow noreferrer">#43</a></li><li>Destructure path module <a href="https://github.com/hexojs/hexo-fs/pull/44" target="_blank" rel="noopener external nofollow noreferrer">#44</a></li><li>Refactor(test): Tuple to Object map <a href="https://github.com/hexojs/hexo-fs/pull/45" target="_blank" rel="noopener external nofollow noreferrer">#45</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/hexo-server&quot; target=&quot;_blank&quot; rel=&quot;noopener external 
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugin hexo-generator-tag 1.0.0, hexo-renderer-ejs 1.0.0 &amp; hexo-renderer-stylus 1.1.0 released</title>
+    <link href="https://hexo.io/news/2019/09/06/hexo-generator-tag-1_hexo-renderer-ejs-1_hexo-renderer-stylus-1/"/>
+    <id>https://hexo.io/news/2019/09/06/hexo-generator-tag-1_hexo-renderer-ejs-1_hexo-renderer-stylus-1/</id>
+    <published>2019-09-06T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.066Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/hexo-generator-tag" target="_blank" rel="noopener external nofollow noreferrer">hexo-generator-tag</a>, <a href="https://github.com/hexojs/hexo-renderer-ejs" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-ejs</a> and <a href="https://github.com/hexojs/hexo-renderer-stylus" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-stylus</a>.</p><h2 id="hexo-generator-tag-1-0-0"><a href="#hexo-generator-tag-1-0-0" class="headerlink" title="hexo-generator-tag 1.0.0"></a>hexo-generator-tag 1.0.0</h2><h3 id="Breaking-change"><a href="#Breaking-change" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>chore: require at least node 8 <a href="https://github.com/hexojs/hexo-generator-tag/pull/25" target="_blank" rel="noopener external nofollow noreferrer">#25</a></li></ul><h3 id="Feature"><a href="#Feature" class="headerlink" title="Feature"></a>Feature</h3><ul><li>Add the “order_by” option <a href="https://github.com/hexojs/hexo-generator-tag/pull/22" target="_blank" rel="noopener external nofollow noreferrer">#22</a></li></ul><h3 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>refactor(package): use Object.assign instead of object-assign package <a href="https://github.com/hexojs/hexo-generator-tag/pull/14" target="_blank" rel="noopener external nofollow noreferrer">#14</a></li><li>refactor(ES2015): use let/const &amp; arrow-return <a href="https://github.com/hexojs/hexo-generator-tag/pull/16" target="_blank" rel="noopener external nofollow noreferrer">#16</a></li><li>refactor: es6-fy <a href="https://github.com/hexojs/hexo-generator-tag/pull/26" target="_blank" rel="noopener external nofollow noreferrer">#26</a></li></ul><h2 id="hexo-renderer-ejs-1-0-0"><a href="#hexo-renderer-ejs-1-0-0" class="headerlink" title="hexo-renderer-ejs 1.0.0"></a>hexo-renderer-ejs 1.0.0</h2><h3 id="Breaking-change-1"><a href="#Breaking-change-1" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>chore: drop node 6 <a href="https://github.com/hexojs/hexo-renderer-ejs/pull/20" target="_blank" rel="noopener external nofollow noreferrer">#20</a></li></ul><h3 id="Feature-1"><a href="#Feature-1" class="headerlink" title="Feature"></a>Feature</h3><ul><li>Upgrade ejs to v2 (w/ comments support) <a href="https://github.com/hexojs/hexo-renderer-ejs/pull/5" target="_blank" rel="noopener external nofollow noreferrer">#5</a>. Support <code>&lt;%# ... %&gt;</code>.</li></ul><h3 id="Refactor-1"><a href="#Refactor-1" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>refactor: use Object.assign and var to let/const <a href="https://github.com/hexojs/hexo-renderer-ejs/pull/8" target="_blank" rel="noopener external nofollow noreferrer">#8</a></li><li>chore(eslint): use eslint instead of jscs <a href="https://github.com/hexojs/hexo-renderer-ejs/pull/10" target="_blank" rel="noopener external nofollow noreferrer">#10</a></li></ul><h2 id="hexo-renderer-stylus-1-0-0"><a href="#hexo-renderer-stylus-1-0-0" class="headerlink" title="hexo-renderer-stylus 1.0.0"></a>hexo-renderer-stylus 1.0.0</h2><h3 id="Breaking-change-2"><a href="#Breaking-change-2" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>chore: require at least node 8 <a href="https://github.com/hexojs/hexo-renderer-stylus/pull/33" target="_blank" rel="noopener external nofollow noreferrer">#33</a></li></ul><h3 id="Fix"><a href="#Fix" class="headerlink" title="Fix"></a>Fix</h3><ul><li>upgrade dependencies and make it be compatible with node v6 <a href="https://github.com/hexojs/hexo-renderer-stylus/pull/13" target="_blank" rel="noopener external nofollow noreferrer">#13</a></li></ul><h3 id="Refactor-2"><a href="#Refactor-2" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>refactor: es6-fy <a href="https://github.com/hexojs/hexo-renderer-stylus/pull/34" target="_blank" rel="noopener external nofollow noreferrer">#34</a></li></ul><h3 id="Housekeeping"><a href="#Housekeeping" class="headerlink" title="Housekeeping"></a>Housekeeping</h3><ul><li>chore(package): delete jscs <a href="https://github.com/hexojs/hexo-renderer-stylus/pull/26" target="_blank" rel="noopener external nofollow noreferrer">#26</a></li><li>remove useless file from npm module <a href="https://github.com/hexojs/hexo-renderer-stylus/pull/27" target="_blank" rel="noopener external nofollow noreferrer">#27</a></li></ul><h2 id="hexo-renderer-stylus-1-1-0"><a href="#hexo-renderer-stylus-1-1-0" class="headerlink" title="hexo-renderer-stylus 1.1.0"></a>hexo-renderer-stylus 1.1.0</h2><h3 id="Feature-2"><a href="#Feature-2" class="headerlink" title="Feature"></a>Feature</h3><ul><li>feat: configurable plugins <a href="https://github.com/hexojs/hexo-renderer-stylus/pull/38" target="_blank" rel="noopener external nofollow noreferrer">#38</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/hexo-generator-tag&quot; target=&quot;_blank&quot; rel=&quot;noopener ex
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugin hexo-util 1.0.0 &amp; hexo-renderer-marked 2.0.0 released</title>
+    <link href="https://hexo.io/news/2019/08/21/hexo-util-1-0-0_hexo-renderer-marked-2-0-0_released/"/>
+    <id>https://hexo.io/news/2019/08/21/hexo-util-1-0-0_hexo-renderer-marked-2-0-0_released/</id>
+    <published>2019-08-21T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.066Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/hexo-util" target="_blank" rel="noopener external nofollow noreferrer">hexo-util</a> &amp; <a href="https://github.com/hexojs/hexo-renderer-marked" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-marked</a>.</p><h2 id="hexo-util-1-0-0"><a href="#hexo-util-1-0-0" class="headerlink" title="hexo-util 1.0.0"></a>hexo-util 1.0.0</h2><h3 id="Breaking-changes"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes</h3><ul><li>Drop Node 6 compatibility <a href="https://github.com/hexojs/hexo-util/pull/61" target="_blank" rel="noopener external nofollow noreferrer">#61</a></li><li>Deprecate hashStream <a href="https://github.com/hexojs/hexo-util/pull/45" target="_blank" rel="noopener external nofollow noreferrer">#45</a>, use <code>createSha1Hash()</code></li></ul><h3 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h3><ul><li>Add Color class from tagcloud hexo helper <a href="https://github.com/hexojs/hexo-util/pull/58" target="_blank" rel="noopener external nofollow noreferrer">#58</a></li><li>Allows empty attributes in html tag helper <a href="https://github.com/hexojs/hexo-util/pull/36" target="_blank" rel="noopener external nofollow noreferrer">#36</a></li></ul><h3 id="Fixes"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes</h3><ul><li>fs.write instead of stdout <a href="https://github.com/hexojs/hexo-util/pull/69" target="_blank" rel="noopener external nofollow noreferrer">#69</a></li><li>prevent firstLine being parsed as a string <a href="https://github.com/hexojs/hexo-util/pull/67" target="_blank" rel="noopener external nofollow noreferrer">#67</a></li><li>Fix the part where the public API createSha1Hash() was not exported. <a href="https://github.com/hexojs/hexo-util/pull/47" target="_blank" rel="noopener external nofollow noreferrer">#47</a></li></ul><h3 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>camel_case_keys.js <a href="https://github.com/hexojs/hexo-util/pull/48" target="_blank" rel="noopener external nofollow noreferrer">#48</a></li><li>ES6 <a href="https://github.com/hexojs/hexo-util/pull/44" target="_blank" rel="noopener external nofollow noreferrer">#44</a> <a href="https://github.com/hexojs/hexo-util/pull/46" target="_blank" rel="noopener external nofollow noreferrer">#46</a> <a href="https://github.com/hexojs/hexo-util/pull/70" target="_blank" rel="noopener external nofollow noreferrer">#70</a></li></ul><h2 id="hexo-renderer-marked-2-0-0"><a href="#hexo-renderer-marked-2-0-0" class="headerlink" title="hexo-renderer-marked 2.0.0"></a>hexo-renderer-marked 2.0.0</h2><h3 id="Breaking-changes-1"><a href="#Breaking-changes-1" class="headerlink" title="Breaking changes"></a>Breaking changes</h3><ul><li>Drop Node 6 compatibility <a href="https://github.com/hexojs/hexo-renderer-marked/pull/98" target="_blank" rel="noopener external nofollow noreferrer">#98</a></li><li><code>sanitize</code> option has been deprecated, replaced by <code>sanitizeUrl</code> with limited functions <a href="https://github.com/hexojs/hexo-renderer-marked/pull/102" target="_blank" rel="noopener external nofollow noreferrer">#102</a></li><li><code>tables</code> option has been deprecated. Enabling <code>gfm</code> option also enables <code>tables</code> <a href="https://github.com/hexojs/hexo-renderer-marked/pull/102" target="_blank" rel="noopener external nofollow noreferrer">#102</a></li><li>Refer to upstream’s <a href="https://github.com/markedjs/marked/releases/tag/v0.7.0" target="_blank" rel="noopener external nofollow noreferrer">changelog</a> for details on possible breaking changes.</li></ul><h3 id="Features-1"><a href="#Features-1" class="headerlink" title="Features"></a>Features</h3><ul><li>Add option to disable headerIds <a href="https://github.com/hexojs/hexo-renderer-marked/pull/106" target="_blank" rel="noopener external nofollow noreferrer">#106</a></li></ul><h3 id="Refactor-1"><a href="#Refactor-1" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>ES6 <a href="https://github.com/hexojs/hexo-renderer-marked/pull/97" target="_blank" rel="noopener external nofollow noreferrer">#97</a> <a href="https://github.com/hexojs/hexo-renderer-marked/pull/104" target="_blank" rel="noopener external nofollow noreferrer">#104</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/hexo-util&quot; target=&quot;_blank&quot; rel=&quot;noopener external no
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 3.9.0 Released</title>
+    <link href="https://hexo.io/news/2019/06/19/hexo-3-9-released/"/>
+    <id>https://hexo.io/news/2019/06/19/hexo-3-9-released/</id>
+    <published>2019-06-19T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.066Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="New-Features"><a href="#New-Features" class="headerlink" title="New Features"></a>New Features</h2><ul><li>Updated hexo-renderer-marked to 1.0.1 <a href="https://github.com/hexojs/hexo/issues/3571" target="_blank" rel="noopener external nofollow noreferrer">#3571</a></li><li>Updated hexo-fs to 1.0.0 <a href="https://github.com/hexojs/hexo/issues/3301" target="_blank" rel="noopener external nofollow noreferrer">#3301</a></li><li>TOC: Seek anchor id from parent nodes when target is not available <a href="https://github.com/hexojs/hexo/issues/3404" target="_blank" rel="noopener external nofollow noreferrer">#3404</a></li><li>tag/include_code now can include ranged code lines [#3393]</li></ul><h2 id="Bug-Fixes"><a href="#Bug-Fixes" class="headerlink" title="Bug Fixes"></a>Bug Fixes</h2><ul><li>DisableNunjucks: true should render markdown code block <a href="https://github.com/hexojs/hexo/issues/3573" target="_blank" rel="noopener external nofollow noreferrer">#3573</a></li><li>Changing source config should generate assets <a href="https://github.com/hexojs/hexo/issues/3399" target="_blank" rel="noopener external nofollow noreferrer">#3399</a></li></ul><h2 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h2><ul><li>Spread function: Hexo built-in plugin blockquote <a href="https://github.com/hexojs/hexo/issues/3291" target="_blank" rel="noopener external nofollow noreferrer">#3291</a></li><li>ES6 block scoping refactor <a href="https://github.com/hexojs/hexo/issues/3294" target="_blank" rel="noopener external nofollow noreferrer">#3294</a></li><li>Use spread syntax <a href="https://github.com/hexojs/hexo/issues/3333" target="_blank" rel="noopener external nofollow noreferrer">#3333</a></li></ul><h2 id="Housekeeping"><a href="#Housekeeping" class="headerlink" title="Housekeeping"></a>Housekeeping</h2><p><a href="https://github.com/hexojs/hexo/issues/3326" target="_blank" rel="noopener external nofollow noreferrer">#3326</a>, <a href="https://github.com/hexojs/hexo/issues/3324" target="_blank" rel="noopener external nofollow noreferrer">#3324</a>, <a href="https://github.com/hexojs/hexo/issues/3315" target="_blank" rel="noopener external nofollow noreferrer">#3315</a>, <a href="https://github.com/hexojs/hexo/issues/3300" target="_blank" rel="noopener external nofollow noreferrer">#3300</a>, <a href="https://github.com/hexojs/hexo/issues/3329" target="_blank" rel="noopener external nofollow noreferrer">#3329</a>, <a href="https://github.com/hexojs/hexo/issues/3359" target="_blank" rel="noopener external nofollow noreferrer">#3359</a>, <a href="https://github.com/hexojs/hexo/issues/3369" target="_blank" rel="noopener external nofollow noreferrer">#3369</a>, <a href="https://github.com/hexojs/hexo/issues/3368" target="_blank" rel="noopener external nofollow noreferrer">#3368</a>, <a href="https://github.com/hexojs/hexo/issues/3367" target="_blank" rel="noopener external nofollow noreferrer">#3367</a>, <a href="https://github.com/hexojs/hexo/issues/3569" target="_blank" rel="noopener external nofollow noreferrer">#3569</a></p><p>More info: <a href="https://github.com/hexojs/hexo/releases" target="_blank" rel="noopener external nofollow noreferrer">changelog</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;New-Features&quot;&gt;&lt;a href=&quot;#New-Features&quot; class=&quot;headerlink&quot; title=&quot;New Features&quot;&gt;&lt;/a&gt;New Features&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Updated hexo-renderer-ma
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-cli 2.0.0 Released!!</title>
+    <link href="https://hexo.io/news/2019/06/01/hexo-cli-2-0-0-released/"/>
+    <id>https://hexo.io/news/2019/06/01/hexo-cli-2-0-0-released/</id>
+    <published>2019-06-01T15:40:00.000Z</published>
+    <updated>2019-10-28T01:17:33.065Z</updated>
+    
+    <content type="html"><![CDATA[<p>The hexo-cli it’s a command line interface for Hexo is released v2.0.0</p><h3 id="Breaking-changes"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes</h3><ul><li><a href="https://github.com/hexojs/hexo-cli/pull/28" target="_blank" rel="noopener external nofollow noreferrer">#28</a> Require Node.js +6.9</li></ul><h3 id="Fixes"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes</h3><ul><li><a href="https://github.com/hexojs/hexo-cli/pull/45" target="_blank" rel="noopener external nofollow noreferrer">#45</a> Fixed the invalid type error while running init with a numeric folder name</li></ul><h3 id="Improvements"><a href="#Improvements" class="headerlink" title="Improvements"></a>Improvements</h3><ul><li><a href="https://github.com/hexojs/hexo-cli/pull/29" target="_blank" rel="noopener external nofollow noreferrer">#29</a> Reveal GIT_REPO_URL in log</li><li><a href="https://github.com/hexojs/hexo-cli/pull/46" target="_blank" rel="noopener external nofollow noreferrer">#46</a> Remove useless file from npm module</li></ul><h3 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li><a href="https://github.com/hexojs/hexo-cli/pull/62" target="_blank" rel="noopener external nofollow noreferrer">#62</a>, <a href="https://github.com/hexojs/hexo-cli/pull/65" target="_blank" rel="noopener external nofollow noreferrer">#65</a> Migrate to ES2015</li></ul><h3 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h3><ul><li><a href="https://github.com/hexojs/hexo-cli/pull/30" target="_blank" rel="noopener external nofollow noreferrer">#30</a> Drop JSCS &amp; use ESLint instead it</li><li><a href="https://github.com/hexojs/hexo-cli/pull/31" target="_blank" rel="noopener external nofollow noreferrer">#31</a> Drop object-assign</li><li><a href="https://github.com/hexojs/hexo-cli/pull/34" target="_blank" rel="noopener external nofollow noreferrer">#34</a>, <a href="https://github.com/hexojs/hexo-cli/pull/40" target="_blank" rel="noopener external nofollow noreferrer">#40</a> Update Sinon from 1.17.4 to 7.1.1</li><li><a href="https://github.com/hexojs/hexo-cli/pull/35" target="_blank" rel="noopener external nofollow noreferrer">#35</a>, <a href="https://github.com/hexojs/hexo-cli/pull/47" target="_blank" rel="noopener external nofollow noreferrer">#47</a>, <a href="https://github.com/hexojs/hexo-cli/pull/58" target="_blank" rel="noopener external nofollow noreferrer">#58</a>, <a href="https://github.com/hexojs/hexo-cli/pull/61" target="_blank" rel="noopener external nofollow noreferrer">#61</a> Update mocha requirement from ^2.5.3 to ^6.1.4</li><li><a href="https://github.com/hexojs/hexo-cli/pull/36" target="_blank" rel="noopener external nofollow noreferrer">#36</a>, <a href="https://github.com/hexojs/hexo-cli/pull/67" target="_blank" rel="noopener external nofollow noreferrer">#67</a> Update hexo-renderer-marked requirement from ^0.2.10 to ^1.0.1</li><li><a href="https://github.com/hexojs/hexo-cli/pull/37" target="_blank" rel="noopener external nofollow noreferrer">#37</a> Update rewire requirement from ^2.5.1 to ^4.0.1</li><li><a href="https://github.com/hexojs/hexo-cli/pull/38" target="_blank" rel="noopener external nofollow noreferrer">#38</a>, <a href="https://github.com/hexojs/hexo-cli/pull/50" target="_blank" rel="noopener external nofollow noreferrer">#50</a> Update chai-as-promised requirement from ^5.3.0 to ^7.2.7</li><li><a href="https://github.com/hexojs/hexo-cli/pull/39" target="_blank" rel="noopener external nofollow noreferrer">#39</a>, <a href="https://github.com/hexojs/hexo-cli/pull/50" target="_blank" rel="noopener external nofollow noreferrer">#50</a>, <a href="https://github.com/hexojs/hexo-cli/pull/51" target="_blank" rel="noopener external nofollow noreferrer">#51</a>, <a href="https://github.com/hexojs/hexo-cli/pull/52" target="_blank" rel="noopener external nofollow noreferrer">#52</a>, <a href="https://github.com/hexojs/hexo-cli/pull/55" target="_blank" rel="noopener external nofollow noreferrer">#55</a> Update eslint requirement from ^4.19.1 to ^5.16.0</li><li><a href="https://github.com/hexojs/hexo-cli/pull/41" target="_blank" rel="noopener external nofollow noreferrer">#41</a> Update chai requirement from ^3.5.0 to ^4.2.0</li><li><a href="https://github.com/hexojs/hexo-cli/pull/42" target="_blank" rel="noopener external nofollow noreferrer">#42</a> Update proxyquire requirement from ^1.7.9 to ^2.1.0</li><li><a href="https://github.com/hexojs/hexo-cli/pull/43" target="_blank" rel="noopener external nofollow noreferrer">#43</a> Update hexo-fs requirement from ^0.2.0 to ^1.0.0</li><li><a href="https://github.com/hexojs/hexo-cli/pull/44" target="_blank" rel="noopener external nofollow noreferrer">#44</a> Update chalk requirement from ^1.1.3 to ^2.4.1</li><li><a href="https://github.com/hexojs/hexo-cli/pull/50" target="_blank" rel="noopener external nofollow noreferrer">#50</a> Update all packages to latest and include package-lock.json</li><li><a href="https://github.com/hexojs/hexo-cli/pull/56" target="_blank" rel="noopener external nofollow noreferrer">#56</a>, <a href="https://github.com/hexojs/hexo-cli/pull/70" target="_blank" rel="noopener external nofollow noreferrer">#70</a> Bump bluebird from 3.5.3 to 3.5.5</li><li><a href="https://github.com/hexojs/hexo-cli/pull/50" target="_blank" rel="noopener external nofollow noreferrer">#50</a>, <a href="https://github.com/hexojs/hexo-cli/pull/63" target="_blank" rel="noopener external nofollow noreferrer">#63</a>, <a href="https://github.com/hexojs/hexo-cli/pull/68" target="_blank" rel="noopener external nofollow noreferrer">#68</a> Bump resolve from 1.5.0 to 1.11.0</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;The hexo-cli it’s a command line interface for Hexo is released v2.0.0&lt;/p&gt;
+&lt;h3 id=&quot;Breaking-changes&quot;&gt;&lt;a href=&quot;#Breaking-changes&quot; class=&quot;h
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugin hexo-renderer-marked 1.0.0 &amp; 1.0.1 Released!!</title>
+    <link href="https://hexo.io/news/2019/05/23/hexo-renderer-marked-1-0-0_1_0_1-released/"/>
+    <id>https://hexo.io/news/2019/05/23/hexo-renderer-marked-1-0-0_1_0_1-released/</id>
+    <published>2019-05-22T23:59:00.000Z</published>
+    <updated>2019-10-28T01:17:33.065Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/hexo-renderer-marked" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-marked</a></p><h3 id="Breaking-changes"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes</h3><ul><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/92" target="_blank" rel="noopener external nofollow noreferrer">#92</a> Require Node.js +6.9</li><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/39" target="_blank" rel="noopener external nofollow noreferrer">#39</a>, <a href="https://github.com/hexojs/hexo-renderer-marked/pull/46" target="_blank" rel="noopener external nofollow noreferrer">#46</a>, <a href="https://github.com/hexojs/hexo-renderer-marked/pull/62" target="_blank" rel="noopener external nofollow noreferrer">#62</a> Markdown todo list render into disable checkbox</li><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/87" target="_blank" rel="noopener external nofollow noreferrer">#87</a> Update marked 0.3.9 to 0.6.1<ul><li>It has <strong>some breaking changes</strong>. Please see marked’s breaking changes.<ul><li><a href="https://github.com/markedjs/marked/releases/tag/0.4.0" target="_blank" rel="noopener external nofollow noreferrer">v0.4.0</a></li><li><a href="https://github.com/markedjs/marked/releases/tag/v0.5.0" target="_blank" rel="noopener external nofollow noreferrer">v0.5.0</a></li><li><a href="https://github.com/markedjs/marked/releases/tag/v0.6.0" target="_blank" rel="noopener external nofollow noreferrer">v0.6.0</a></li></ul></li></ul></li></ul><h3 id="New-feature"><a href="#New-feature" class="headerlink" title="New feature"></a>New feature</h3><ul><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/55" target="_blank" rel="noopener external nofollow noreferrer">#55</a> Add support for basic description/definition lists</li></ul><h3 id="Fixes"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes</h3><ul><li><a href="https://github.com/hexojs/hexo-renderer-marked/issues/70" target="_blank" rel="noopener external nofollow noreferrer">#70</a> Text less than 3 chars is not italicized</li></ul><h3 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h3><ul><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/73" target="_blank" rel="noopener external nofollow noreferrer">#73</a>, <a href="https://github.com/hexojs/hexo-renderer-marked/pull/84" target="_blank" rel="noopener external nofollow noreferrer">#84</a> Update mocha requirement from ^4.0.1 to ^6.0.0</li><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/74" target="_blank" rel="noopener external nofollow noreferrer">#74</a> Update babel-eslint requirement from ^8.0.3 to ^10.0.1</li><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/76" target="_blank" rel="noopener external nofollow noreferrer">#76</a> Update eslint-config-hexo requirement from ^2.0.0 to ^3.0.0</li><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/77" target="_blank" rel="noopener external nofollow noreferrer">#77</a> Update eslint requirement from ^4.13.1 to ^5.9.0</li><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/81" target="_blank" rel="noopener external nofollow noreferrer">#81</a> Delete jscs dependency</li><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/91" target="_blank" rel="noopener external nofollow noreferrer">#91</a> Delete object-assign</li></ul><h3 id="Miscellaneous"><a href="#Miscellaneous" class="headerlink" title="Miscellaneous"></a>Miscellaneous</h3><ul><li><a href="https://github.com/hexojs/hexo-renderer-marked/pull/96" target="_blank" rel="noopener external nofollow noreferrer">#96</a> Shrinked packed size &amp; fix npm installation due to existence of .git folder in v1.0.0</li></ul><h3 id="Docs"><a href="#Docs" class="headerlink" title="Docs"></a>Docs</h3><ul><li><a href="https://github.com/hexojs/hexo-renderer-marked/issues/79" target="_blank" rel="noopener external nofollow noreferrer">#79</a> Update docs to explain modifyAnchors option</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/hexo-renderer-marked&quot; target=&quot;_blank&quot; rel=&quot;noopener 
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugin hexo-deployer-git 1.0.0 Released!!</title>
+    <link href="https://hexo.io/news/2019/01/12/hexo-deployer-git-1.0.0_released/"/>
+    <id>https://hexo.io/news/2019/01/12/hexo-deployer-git-1.0.0_released/</id>
+    <published>2019-01-11T22:13:00.000Z</published>
+    <updated>2019-10-28T01:17:33.064Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/hexo-deployer-git" target="_blank" rel="noopener external nofollow noreferrer">hexo-deployer-git</a></p><h3 id="BREAKING-Changes"><a href="#BREAKING-Changes" class="headerlink" title="BREAKING Changes"></a>BREAKING Changes</h3><ul><li>Replace swig with swig-templates <a href="https://github.com/hexojs/hexo-deployer-git/pull/100" target="_blank" rel="noopener external nofollow noreferrer">#100</a></li></ul><h3 id="Improvements"><a href="#Improvements" class="headerlink" title="Improvements"></a>Improvements</h3><ul><li>specify files to shrink package size <a href="https://github.com/hexojs/hexo-deployer-git/commit/ca449bb569f622dc0f3c7a528a5ead3e304a27e2" target="_blank" rel="noopener external nofollow noreferrer">ca449bb</a></li></ul><h3 id="Fixes"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes</h3><ul><li>Fix the install command in npm@5 <a href="https://github.com/hexojs/hexo-deployer-git/pull/89" target="_blank" rel="noopener external nofollow noreferrer">#86</a></li><li>Inherit stdio for spawned git process <a href="https://github.com/hexojs/hexo-deployer-git/pull/82" target="_blank" rel="noopener external nofollow noreferrer">#82</a></li></ul><h3 id="Update-dependencies"><a href="#Update-dependencies" class="headerlink" title="Update dependencies"></a>Update dependencies</h3><ul><li>Update vulnerabilities dependencies <a href="https://github.com/hexojs/hexo-deployer-git/pull/110" target="_blank" rel="noopener external nofollow noreferrer">#110</a></li><li>Update babel-eslint requirement from ^7.2.1 to ^10.0.1 <a href="https://github.com/hexojs/hexo-deployer-git/pull/116" target="_blank" rel="noopener external nofollow noreferrer">#116</a></li><li>Update hexo-fs requirement from ^0.2.0 to ^1.0.0 <a href="https://github.com/hexojs/hexo-deployer-git/pull/115" target="_blank" rel="noopener external nofollow noreferrer">#115</a></li><li>Update chai requirement from ^3.5.0 to ^4.2.0 <a href="https://github.com/hexojs/hexo-deployer-git/pull/113" target="_blank" rel="noopener external nofollow noreferrer">#113</a></li><li>Update chalk requirement from ^1.1.3 to ^2.4.1 <a href="https://github.com/hexojs/hexo-deployer-git/pull/114" target="_blank" rel="noopener external nofollow noreferrer">#114</a></li></ul><h3 id="Docs"><a href="#Docs" class="headerlink" title="Docs"></a>Docs</h3><ul><li>Add Notice on pushing github errors <a href="https://github.com/hexojs/hexo-deployer-git/commit/4a2e283d89a0331f944d1f24e882c64b4fb62ab7" target="_blank" rel="noopener external nofollow noreferrer">4a2e283</a></li><li>Update installation section <a href="https://github.com/hexojs/hexo-deployer-git/commit/288b41506b25b1ee67308382165552ec8edee14a" target="_blank" rel="noopener external nofollow noreferrer">288b415</a></li></ul><h3 id="CI"><a href="#CI" class="headerlink" title="CI"></a>CI</h3><ul><li>Update ci services target nodejs version <a href="https://github.com/hexojs/hexo-deployer-git/pull/111" target="_blank" rel="noopener external nofollow noreferrer">#111</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/hexo-deployer-git&quot; target=&quot;_blank&quot; rel=&quot;noopener ext
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugin hexo-autoprefixer 2.0.0 Released!!</title>
+    <link href="https://hexo.io/news/2018/12/26/hexo-autoprefixer-2-0-0_released/"/>
+    <id>https://hexo.io/news/2018/12/26/hexo-autoprefixer-2-0-0_released/</id>
+    <published>2018-12-26T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.064Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/hexo-autoprefixer" target="_blank" rel="noopener external nofollow noreferrer">hexo-autoprefixer</a></p><h3 id="Update-dependencies"><a href="#Update-dependencies" class="headerlink" title="Update dependencies"></a>Update dependencies</h3><ul><li>Update autoprefixer to v9 <a href="https://github.com/hexojs/hexo-autoprefixer/pull/8" target="_blank" rel="noopener external nofollow noreferrer">#8</a></li><li>Update postcss to v7 <a href="https://github.com/hexojs/hexo-autoprefixer/pull/9" target="_blank" rel="noopener external nofollow noreferrer">#9</a></li><li>Remove object-assign dependency <a href="https://github.com/hexojs/hexo-autoprefixer/pull/15" target="_blank" rel="noopener external nofollow noreferrer">#15</a></li><li>Update eslint &amp; delete jscs <a href="https://github.com/hexojs/hexo-autoprefixer/pull/17" target="_blank" rel="noopener external nofollow noreferrer">#17</a></li></ul><h3 id="Docs"><a href="#Docs" class="headerlink" title="Docs"></a>Docs</h3><ul><li>Add quotes in exclude section <a href="https://github.com/hexojs/hexo-autoprefixer/pull/7" target="_blank" rel="noopener external nofollow noreferrer">#7</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/hexo-autoprefixer&quot; target=&quot;_blank&quot; rel=&quot;noopener ext
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugin hexo-filter-responsive-images 1.4.0, 1.4.1 &amp; hexo-asset-pipeline 1.7.0 Released!!</title>
+    <link href="https://hexo.io/news/2018/12/12/hexo-filter-responsive-images-1-4-0_1-4-1_hexo-asset-pipeline-1-7-0_released/"/>
+    <id>https://hexo.io/news/2018/12/12/hexo-filter-responsive-images-1-4-0_1-4-1_hexo-asset-pipeline-1-7-0_released/</id>
+    <published>2018-12-12T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.063Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins <a href="https://github.com/hexojs/hexo-filter-responsive-images" target="_blank" rel="noopener external nofollow noreferrer">hexo-filter-responsive-images</a> &amp; <a href="https://github.com/hexojs/hexo-asset-pipeline" target="_blank" rel="noopener external nofollow noreferrer">hexo-asset-pipeline</a>.</p><h1 id="hexo-filter-responsive-images-1-4-0-amp-1-4-1"><a href="#hexo-filter-responsive-images-1-4-0-amp-1-4-1" class="headerlink" title="hexo-filter-responsive-images 1.4.0 &amp; 1.4.1"></a>hexo-filter-responsive-images 1.4.0 &amp; 1.4.1</h1><h2 id="1-4-0"><a href="#1-4-0" class="headerlink" title="1.4.0"></a>1.4.0</h2><h3 id="Update-dependencies"><a href="#Update-dependencies" class="headerlink" title="Update dependencies"></a>Update dependencies</h3><ul><li>update sharp to 0.21 <a href="https://github.com/hexojs/hexo-filter-responsive-images/pull/20" target="_blank" rel="noopener external nofollow noreferrer">#20</a></li><li>update bluebird to 3.5.3 <a href="https://github.com/hexojs/hexo-filter-responsive-images/pull/21" target="_blank" rel="noopener external nofollow noreferrer">#21</a></li></ul><h2 id="1-4-1"><a href="#1-4-1" class="headerlink" title="1.4.1"></a>1.4.1</h2><h3 id="Update-dependency"><a href="#Update-dependency" class="headerlink" title="Update dependency"></a>Update dependency</h3><ul><li>update sharp to 0.21.1 <a href="https://github.com/hexojs/hexo-filter-responsive-images/pull/29" target="_blank" rel="noopener external nofollow noreferrer">#29</a></li></ul><h3 id="Improve"><a href="#Improve" class="headerlink" title="Improve"></a>Improve</h3><ul><li>configuration file follows the new sharp API backward compatibility is preserved though a compilation warning suggests steps to upgrade config file. <a href="https://github.com/hexojs/hexo-filter-responsive-images/pull/25" target="_blank" rel="noopener external nofollow noreferrer">#25</a>, <a href="https://github.com/hexojs/hexo-filter-responsive-images/pull/26" target="_blank" rel="noopener external nofollow noreferrer">#26</a>, <a href="https://github.com/hexojs/hexo-filter-responsive-images/pull/27" target="_blank" rel="noopener external nofollow noreferrer">#27</a>, <a href="https://github.com/hexojs/hexo-filter-responsive-images/pull/28" target="_blank" rel="noopener external nofollow noreferrer">#28</a></li></ul><h1 id="hexo-asset-pipeline-1-7-0"><a href="#hexo-asset-pipeline-1-7-0" class="headerlink" title="hexo-asset-pipeline 1.7.0"></a>hexo-asset-pipeline 1.7.0</h1><h3 id="Update-dependency-1"><a href="#Update-dependency-1" class="headerlink" title="Update dependency"></a>Update dependency</h3><ul><li>update imagemin-optipng requirement from ^5.2.1 to ^6.0.0 <a href="https://github.com/hexojs/hexo-asset-pipeline/pull/37" target="_blank" rel="noopener external nofollow noreferrer">#37</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins &lt;a href=&quot;https://github.com/hexojs/hexo-filter-responsive-images&quot; target=&quot;_blank&quot; rel=&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Official plugin hexo-fs 1.0.1 &amp; hexo-renderer-less 1.0.0 Released!!</title>
+    <link href="https://hexo.io/news/2018/12/01/2018-12-01-hexofs-1-0-1-and-hexo-renderer-less-1-0-0-released-md/"/>
+    <id>https://hexo.io/news/2018/12/01/2018-12-01-hexofs-1-0-1-and-hexo-renderer-less-1-0-0-released-md/</id>
+    <published>2018-12-01T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.063Z</updated>
+    
+    <content type="html"><![CDATA[<p>We released a new version of the official plugins hexo-fs &amp; hexo-renderer-less.</p><h2 id="hexo-fs-1-0-1"><a href="#hexo-fs-1-0-1" class="headerlink" title="hexo-fs 1.0.1"></a>hexo-fs 1.0.1</h2><h3 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h3><p>Minor performance tuning <a href="https://github.com/hexojs/hexo-fs/pull/25" target="_blank" rel="noopener external nofollow noreferrer">#23</a></p><h3 id="Housekeeping"><a href="#Housekeeping" class="headerlink" title="Housekeeping"></a>Housekeeping</h3><p>Updated devDependencies <a href="https://github.com/hexojs/hexo-fs/pull/25" target="_blank" rel="noopener external nofollow noreferrer">#25</a><br>Shrink package size <a href="https://github.com/hexojs/hexo-fs/commit/33fceb5425be6c48659147cb7a778617d3262af1" target="_blank" rel="noopener external nofollow noreferrer">33fceb5425be6c48659147cb7a778617d3262af1</a></p><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><p>There is no breaking change from 0.2 to 1.0.</p><h2 id="hexo-renderer-less-1-0-0"><a href="#hexo-renderer-less-1-0-0" class="headerlink" title="hexo-renderer-less 1.0.0"></a>hexo-renderer-less 1.0.0</h2><h3 id="Breaking-changes"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes</h3><p>Updated <code>less</code> 2.5.1 to 3.9.0, see the <a href="https://github.com/less/less.js/blob/master/CHANGELOG.md" target="_blank" rel="noopener external nofollow noreferrer">changelog</a> of <code>less</code>.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We released a new version of the official plugins hexo-fs &amp;amp; hexo-renderer-less.&lt;/p&gt;
+&lt;h2 id=&quot;hexo-fs-1-0-1&quot;&gt;&lt;a href=&quot;#hexo-fs-1-0-1&quot; c
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 3.8.0 Released</title>
+    <link href="https://hexo.io/news/2018/10/19/hexo-3-8-released/"/>
+    <id>https://hexo.io/news/2018/10/19/hexo-3-8-released/</id>
+    <published>2018-10-19T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.062Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="New-feature"><a href="#New-feature" class="headerlink" title="New feature"></a>New feature</h2><ul><li>Supported absolute config path <a href="https://github.com/hexojs/hexo/issues/3118" target="_blank" rel="noopener external nofollow noreferrer">#3118</a></li><li>Added command line option <code>--output</code> to write <code>db.json</code> and <code>_multiconfig</code> to different paths <a href="https://github.com/hexojs/hexo/issues/3122" target="_blank" rel="noopener external nofollow noreferrer">#3122</a></li><li>Added meta generator injection filter <a href="https://github.com/hexojs/hexo/issues/3129" target="_blank" rel="noopener external nofollow noreferrer">#3129</a></li></ul><h2 id="Housekeeping"><a href="#Housekeeping" class="headerlink" title="Housekeeping"></a>Housekeeping</h2><p><a href="https://github.com/hexojs/hexo/issues/3124" target="_blank" rel="noopener external nofollow noreferrer">#3124</a>, <a href="https://github.com/hexojs/hexo/issues/3117" target="_blank" rel="noopener external nofollow noreferrer">#3117</a>, <a href="https://github.com/hexojs/hexo/issues/3102" target="_blank" rel="noopener external nofollow noreferrer">#3102</a>, <a href="https://github.com/hexojs/hexo/issues/3276" target="_blank" rel="noopener external nofollow noreferrer">#3276</a>, <a href="https://github.com/hexojs/hexo/issues/3284" target="_blank" rel="noopener external nofollow noreferrer">#3284</a>, <a href="https://github.com/hexojs/hexo/issues/3285" target="_blank" rel="noopener external nofollow noreferrer">#3285</a>, <a href="https://github.com/hexojs/hexo/issues/3290" target="_blank" rel="noopener external nofollow noreferrer">#3290</a>, <a href="https://github.com/hexojs/hexo/issues/3293" target="_blank" rel="noopener external nofollow noreferrer">#3293</a></p><p>More info: <a href="https://github.com/hexojs/hexo/releases" target="_blank" rel="noopener external nofollow noreferrer">changelog</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;New-feature&quot;&gt;&lt;a href=&quot;#New-feature&quot; class=&quot;headerlink&quot; title=&quot;New feature&quot;&gt;&lt;/a&gt;New feature&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Supported absolute config pa
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 3.2 Released</title>
+    <link href="https://hexo.io/news/2016/02/28/hexo-3-2-released/"/>
+    <id>https://hexo.io/news/2016/02/28/hexo-3-2-released/</id>
+    <published>2016-02-28T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.062Z</updated>
+    
+    <content type="html"><![CDATA[<p>It has been a long time that Hexo is poor at handling large website. (<a href="https://github.com/hexojs/hexo/issues/710" target="_blank" rel="noopener external nofollow noreferrer">#710</a>, <a href="https://github.com/hexojs/hexo/issues/1124" target="_blank" rel="noopener external nofollow noreferrer">#1124</a>, <a href="https://github.com/hexojs/hexo/issues/283" target="_blank" rel="noopener external nofollow noreferrer">#283</a>, <a href="https://github.com/hexojs/hexo/issues/1187" target="_blank" rel="noopener external nofollow noreferrer">#1187</a>, <a href="https://github.com/hexojs/hexo/issues/550" target="_blank" rel="noopener external nofollow noreferrer">#550</a>, <a href="https://github.com/hexojs/hexo/issues/1769" target="_blank" rel="noopener external nofollow noreferrer">#1769</a>, etc.) We tried hard to solve this problem and there’re several improvements in Hexo 3.2.</p><h2 id="It’s-all-about-speed"><a href="#It’s-all-about-speed" class="headerlink" title="It’s all about speed"></a>It’s all about speed</h2><h3 id="Caching-rendered-contents"><a href="#Caching-rendered-contents" class="headerlink" title="Caching rendered contents"></a>Caching rendered contents</h3><p>Rendered contents are cached in the warehouse. This saves a lot of time and made hot processing (2nd-time processing) <strong>1.7x faster</strong>.</p><table><thead><tr><th>Version</th><th>3.1</th><th>3.2</th></tr></thead><tbody><tr><td>Cold processing</td><td>6.094s</td><td>6.454s</td></tr><tr><td>Hot processing</td><td>5.154s</td><td>3.002s</td></tr></tbody></table><h3 id="Lazy-load-language-files-of-highlight-js"><a href="#Lazy-load-language-files-of-highlight-js" class="headerlink" title="Lazy load language files of highlight.js"></a>Lazy load language files of highlight.js</h3><p><a href="https://github.com/hexojs/hexo/issues/1036" target="_blank" rel="noopener external nofollow noreferrer">highlight.js is slow</a>. Especially when it try to detect the language. Lazy load language files make processing faster and don’t have to load bunch of unused language files. However there’re some limitations:</p><ul><li>Auto detect must be disabled.</li><li>You have to specify language in code block.</li></ul><p>You can set auto detect disabled in <code>_config.yml</code>.</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line"><span class="attr">  auto_detect:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><h3 id="Templates-precompilation"><a href="#Templates-precompilation" class="headerlink" title="Templates precompilation"></a>Templates precompilation</h3><p>Theme templates are precompiled if possible. It makes generation speed <strong>2x faster</strong>.</p><table><thead><tr><th>Version</th><th>3.1</th><th>3.2</th></tr></thead><tbody><tr><td>Cold generation</td><td>27.2s</td><td>13.6s</td></tr><tr><td>Hot generation</td><td>24.4s</td><td>12.6s</td></tr></tbody></table><p>The following renderers have already supported this feature.</p><ul><li><a href="https://github.com/hexojs/hexo-renderer-ejs" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-ejs</a></li><li><a href="https://github.com/hexojs/hexo-renderer-jade" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-jade</a></li><li><a href="https://github.com/hexojs/hexo-renderer-swig" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-swig</a></li></ul><p>And it’s easy to implement precompilation for renderers. Just add a <code>compile</code> function to the renderer. Take EJS renderer for example:</p><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> ejs = <span class="built_in">require</span>(<span class="string">'ejs'</span>);</span><br><span class="line"><span class="keyword">var</span> assign = <span class="built_in">require</span>(<span class="string">'object-assign'</span>);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">ejsRenderer</span>(<span class="params">data, locals</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> ejs.render(data.text, assign(&#123;<span class="attr">filename</span>: data.path&#125;, locals));</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ejsRenderer.compile = <span class="function"><span class="keyword">function</span>(<span class="params">data</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> ejs.compile(data.text, &#123;</span><br><span class="line">    filename: data.path</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = ejsRenderer;</span><br></pre></td></tr></table></figure><h2 id="Include-exclude-source-files"><a href="#Include-exclude-source-files" class="headerlink" title="Include/exclude source files"></a>Include/exclude source files</h2><p>You can include/exclude specified source files in <code>_config.yml</code>.</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">include:</span></span><br><span class="line"><span class="bullet">  -</span> <span class="string">.htaccess</span></span><br><span class="line"></span><br><span class="line"><span class="attr">exclude:</span></span><br><span class="line"><span class="bullet">  -</span> <span class="string">tmp/**/*</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://github.com/hexojs/hexo/releases" target="_blank" rel="noopener external nofollow noreferrer">changelog</a>, <a href="https://docs.google.com/spreadsheets/d/1nLW3fPCtrkfMolz8UnUiKq5lqys6bIcZqrfksuvQHA0/edit?usp=sharing" target="_blank" rel="noopener external nofollow noreferrer">benchmark results</a>.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;It has been a long time that Hexo is poor at handling large website. (&lt;a href=&quot;https://github.com/hexojs/hexo/issues/710&quot; target=&quot;_blank&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 3.0 Released</title>
+    <link href="https://hexo.io/news/2015/03/05/hexo-3-0-released/"/>
+    <id>https://hexo.io/news/2015/03/05/hexo-3-0-released/</id>
+    <published>2015-03-05T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.061Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo 3.0 has finally come out! After four beta and four RC versions, Hexo 3 become more stable and more powerful. Thanks for the contributors and testers! </p><h2 id="What’s-Changed"><a href="#What’s-Changed" class="headerlink" title="What’s Changed?"></a>What’s Changed?</h2><p>There’re many improvements in Hexo 3. Better performance, API is easier to use, higher coverage, etc. Here’re some notable changes:</p><ul><li><strong><a href="https://github.com/hexojs/hexo/wiki/Breaking-Changes-in-Hexo-3.0#new-cli" target="_blank" rel="noopener external nofollow noreferrer">New CLI</a></strong>: Command line interface is separated into a stand-alone module: <a href="https://github.com/hexojs/hexo-cli" target="_blank" rel="noopener external nofollow noreferrer">hexo-cli</a></li><li><strong><a href="https://github.com/hexojs/hexo/wiki/Breaking-Changes-in-Hexo-3.0#slimmer-core-module" target="_blank" rel="noopener external nofollow noreferrer">Slimmer Core Module</a></strong>: Generators, deployers and server are also separated from the main module.</li><li><strong><a href="https://github.com/hexojs/hexo/wiki/Breaking-Changes-in-Hexo-3.0#new-generator-api" target="_blank" rel="noopener external nofollow noreferrer">New Generator API</a></strong>: Generator API changed a lot in Hexo 3.</li><li><strong><a href="https://github.com/hexojs/hexo/wiki/Breaking-Changes-in-Hexo-3.0#render-pipeline-changed" target="_blank" rel="noopener external nofollow noreferrer">Include Assets in a Post</a></strong>: Serveral useful tag plugins are added in Hexo 3: <code>post_path</code>, <code>post_link</code>, <code>asset_path</code>, <code>asset_link</code>, <code>asset_img</code>.</li><li><strong><a href="https://github.com/hexojs/hexo/wiki/Breaking-Changes-in-Hexo-3.0#async-tag-plugins" target="_blank" rel="noopener external nofollow noreferrer">Async Tag Plugins</a></strong>: Tag plugins can do async jobs now!</li><li><strong><a href="https://github.com/hexojs/hexo/wiki/Breaking-Changes-in-Hexo-3.0#timezone-support" target="_blank" rel="noopener external nofollow noreferrer">Timezone Support</a></strong>: You can define the timezone of your site now.</li></ul><p>More info: <a href="https://github.com/hexojs/hexo/wiki/Breaking-Changes-in-Hexo-3.0" target="_blank" rel="noopener external nofollow noreferrer">Breaking Changes in Hexo 3.0</a>, <a href="https://github.com/hexojs/hexo/releases" target="_blank" rel="noopener external nofollow noreferrer">changelog</a></p><h2 id="How-to-Update"><a href="#How-to-Update" class="headerlink" title="How to Update?"></a>How to Update?</h2><ol><li><p>Modify <code>package.json</code>.</p> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;hexo&quot;: &#123;</span><br><span class="line">    &quot;version&quot;: &quot;&quot;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>Install <a href="https://github.com/hexojs/hexo-cli" target="_blank" rel="noopener external nofollow noreferrer">hexo-cli</a>. If any error occurred, try to remove hexo first.</p> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure></li><li><p>Install Hexo.</p> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo --save</span><br></pre></td></tr></table></figure></li><li><p>Install plugins. You don’t have to install all the following plugins. It depends on your need.</p> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-server --save</span><br><span class="line">$ npm install hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-archive --save</span><br><span class="line">$ npm install hexo-generator-category --save</span><br><span class="line">$ npm install hexo-generator-tag --save</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ npm install hexo-deployer-heroku --save</span><br><span class="line">$ npm install hexo-deployer-rsync --save</span><br><span class="line">$ npm install hexo-deployer-openshift --save</span><br></pre></td></tr></table></figure></li><li><p>Update plugins. Especially generators and filters. Since the API has breaking changes in Hexo 3.</p></li></ol><p>More info: <a href="https://github.com/hexojs/hexo/wiki/Migrating-from-2.x-to-3.0" target="_blank" rel="noopener external nofollow noreferrer">Migration from 2.x to 3.0</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Hexo 3.0 has finally come out! After four beta and four RC versions, Hexo 3 become more stable and more powerful. Thanks for the contribu
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>New Documentation and Registry</title>
+    <link href="https://hexo.io/news/2015/02/27/new-documentation-and-registry/"/>
+    <id>https://hexo.io/news/2015/02/27/new-documentation-and-registry/</id>
+    <published>2015-02-27T00:00:00.000Z</published>
+    <updated>2019-10-28T01:17:33.061Z</updated>
+    
+    <content type="html"><![CDATA[<p>The Hexo site has just been updated and changed to a brand new theme. The documentation is also updated and more detailed. Some handy features will make your browsing more convenient.</p><h2 id="Official-Registry"><a href="#Official-Registry" class="headerlink" title="Official Registry"></a>Official Registry</h2><p>Besides the new theme, a official registry for plugins and themes finally comes. The registry makes you easier to browse and search plugins. And you can preview themes with screenshots.</p><h3 id="How-to-add-my-plugin-theme-to-the-registry"><a href="#How-to-add-my-plugin-theme-to-the-registry" class="headerlink" title="How to add my plugin/theme to the registry?"></a>How to add my plugin/theme to the registry?</h3><p>See the following articles for more info. Your plugin/theme will be published to the registry once the pull request is merged.</p><ul><li><a href="/docs/themes.html#Publishing">Publish a theme</a></li><li><a href="/docs/plugins.html#Publishing">Publish a plugin</a></li></ul><h2 id="Localization"><a href="#Localization" class="headerlink" title="Localization"></a>Localization</h2><p>We have add two new languages of documentation: <a href="/zh-tw/">Tranditional Chinese (正體中文)</a> and <a href="/zh-cn/">Simplified Chinese (简体中文)</a>. Thanks to <a href="https://github.com/pinggod" target="_blank" rel="noopener external nofollow noreferrer">pinggod</a> for the Simplified Chinese translation. We very welcome you to help us translating and make more people easier to get started with Hexo! For more info, see <a href="/docs/contributing.html#Translating">translating documentation</a>.</p><h2 id="Where’s-API-Documentation"><a href="#Where’s-API-Documentation" class="headerlink" title="Where’s API Documentation?"></a>Where’s API Documentation?</h2><p>The API documentation is hidden so far. Please be patient. I’m updating it now. The new API doc will be released in a few days.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;The Hexo site has just been updated and changed to a brand new theme. The documentation is also updated and more detailed. Some handy fea
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
